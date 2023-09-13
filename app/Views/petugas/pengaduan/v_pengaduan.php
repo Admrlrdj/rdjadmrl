@@ -36,30 +36,33 @@
                 </thead>
                 <tbody>
                     <?php $no = 1;
-                    foreach ($pengaduanPetugas as $key => $value) { ?>
-                        <tr class="text-center">
-                            <td><?= $no++ ?></td>
-                            <td><?= $value['tgl_pengaduan'] ?></td>
-                            <td><?= $value['nik'] ?></td>
-                            <td><?= $value['nama'] ?></td>
-                            <td><?= $value['isi_laporan'] ?></td>
-                            <td><img src="<?= base_url('uploads/' . $value['foto']) ?>" class="img-fluid" alt="Foto Laporan" width="250" height="250"></td>
-                            <td><?php
-                                if ($value['status'] == '0') {
-                                    echo 'Belum Diproses';
-                                } elseif ($value['status'] == '1') {
-                                    echo 'Sedang Diproses';
-                                } elseif ($value['status'] == '2') {
-                                    echo 'Sudah Diproses';
-                                } else {
-                                    echo 'Status Tidak Valid'; // Handle invalid status values if needed
-                                }
-                                ?></td>
-                            <td>
-                                <button class="btn btn-warning btn-sm btn-flat" data-toggle="modal" data-target="#add-tanggapan<?= $value['id_pengaduan'] ?>"><i class="fas fa-comment"></i></button>
-                            </td>
-                        </tr>
-                    <?php } ?>
+                    foreach ($pengaduanPetugas as $key => $value) {
+                        if ($value['status'] === '0') { ?>
+                            <tr class="text-center">
+                                <td><?= $no++ ?></td>
+                                <td><?= $value['tgl_pengaduan'] ?></td>
+                                <td><?= $value['nik'] ?></td>
+                                <td><?= $value['nama'] ?></td>
+                                <td><?= $value['isi_laporan'] ?></td>
+                                <td><img src="<?= base_url('uploads/' . $value['foto']) ?>" class="img-fluid" alt="Foto Laporan" width="250" height="250"></td>
+                                <td><?php
+                                    if ($value['status'] == '0') {
+                                        echo 'Belum Diproses';
+                                    } elseif ($value['status'] == '1') {
+                                        echo 'Sedang Diproses';
+                                    } elseif ($value['status'] == '2') {
+                                        echo 'Sudah Diproses';
+                                    } else {
+                                        echo 'Status Tidak Valid'; // Handle invalid status values if needed
+                                    }
+                                    ?></td>
+                                <td>
+                                    <button class="btn btn-warning btn-sm btn-flat" data-toggle="modal" data-target="#add-tanggapan<?= $value['id_pengaduan'] ?>"><i class="fas fa-comment"></i></button>
+                                </td>
+                            </tr>
+                        <?php } else { ?>
+                    <?php }
+                    } ?>
                 </tbody>
             </table>
         </div>
@@ -67,7 +70,6 @@
     </div>
     <!-- /.card -->
 </div>
-
 
 <!-- /add-modal -->
 <?php foreach ($pengaduanPetugas as $key => $value) { ?>
@@ -122,7 +124,7 @@
                                                                             } else {
                                                                                 echo 'Status Tidak Valid'; // Handle invalid status values if needed
                                                                             }
-                                                                            ?>" required readonly>
+                                                                            ?>" readonly>
                     </div>
                     <div class="form-group">
                         <label for="">Petugas</label>

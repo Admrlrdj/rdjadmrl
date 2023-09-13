@@ -40,6 +40,11 @@ class ModelPengaduan extends Model
         $this->db->table('pengaduan')->insert($data);
     }
 
+    public function UpdateStatus($dataa)
+    {
+        $this->db->table('pengaduan')->update($dataa);
+    }
+
     public function UpdateData($data)
     {
         $this->db->table('pengaduan')->where('id_pengaduan', $data['id_pengaduan'])->update($data);

@@ -54,6 +54,12 @@ class ControllerTanggapan extends BaseController
             'id_petugas' => session()->get('id_petugas'),
         ];
 
+        $dataa = [
+            'status' => '1',
+        ];
+
+
+        $this->ModelPengaduan->UpdateStatus($dataa);
         $this->ModelTanggapan->InsertData($data);
         session()->setFlashdata('pesan', 'Tanggapan berhasil ditambahkan');
         return redirect()->to(base_url('ControllerTanggapan/PetugasIndex'));

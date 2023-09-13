@@ -43,31 +43,34 @@
                 </thead>
                 <tbody>
                     <?php $no = 1;
-                    foreach ($pengaduan as $key => $value) { ?>
-                        <tr class="text-center">
-                            <td><?= $no++ ?></td>
-                            <td><?= $value['tgl_pengaduan'] ?></td>
-                            <td><?= $value['nik'] ?></td>
-                            <td><?= $value['nama'] ?></td>
-                            <td><?= $value['isi_laporan'] ?></td>
-                            <td><img src="<?= base_url('uploads/' . $value['foto']) ?>" class="img-fluid" alt="Foto Laporan" width="250" height="250"></td>
-                            <td><?php
-                                if ($value['status'] == '0') {
-                                    echo 'Belum Diproses';
-                                } elseif ($value['status'] == 'proses') {
-                                    echo 'Sedang Diproses';
-                                } elseif ($value['status'] == 'selesai') {
-                                    echo 'Sudah Diproses';
-                                } else {
-                                    echo 'Status Tidak Valid'; // Handle invalid status values if needed
-                                }
-                                ?></td>
-                            <td>
-                                <button class="btn btn-warning btn-sm btn-flat" data-toggle="modal" data-target="#edit-pengaduan<?= $value['id_pengaduan'] ?>"><i class="fas fa-pencil-alt"></i></button>
-                                <button class="btn btn-danger btn-sm btn-flat" data-toggle="modal" data-target="#delete-pengaduan<?= $value['id_pengaduan'] ?>"><i class="fas fa-trash"></i></button>
-                            </td>
-                        </tr>
-                    <?php  } ?>
+                    foreach ($pengaduan as $key => $value) {
+                        if ($value['status'] === '0') { ?>
+                            <tr class="text-center">
+                                <td><?= $no++ ?></td>
+                                <td><?= $value['tgl_pengaduan'] ?></td>
+                                <td><?= $value['nik'] ?></td>
+                                <td><?= $value['nama'] ?></td>
+                                <td><?= $value['isi_laporan'] ?></td>
+                                <td><img src="<?= base_url('uploads/' . $value['foto']) ?>" class="img-fluid" alt="Foto Laporan" width="250" height="250"></td>
+                                <td><?php
+                                    if ($value['status'] == '0') {
+                                        echo 'Belum Diproses';
+                                    } elseif ($value['status'] == '1') {
+                                        echo 'Sedang Diproses';
+                                    } elseif ($value['status'] == '2') {
+                                        echo 'Sudah Diproses';
+                                    } else {
+                                        echo 'Status Tidak Valid'; // Handle invalid status values if needed
+                                    }
+                                    ?></td>
+                                <td>
+                                    <button class="btn btn-warning btn-sm btn-flat" data-toggle="modal" data-target="#edit-pengaduan<?= $value['id_pengaduan'] ?>"><i class="fas fa-pencil-alt"></i></button>
+                                    <button class="btn btn-danger btn-sm btn-flat" data-toggle="modal" data-target="#delete-pengaduan<?= $value['id_pengaduan'] ?>"><i class="fas fa-trash"></i></button>
+                                </td>
+                            </tr>
+                        <?php } else { ?>
+                    <?php }
+                    } ?>
                 </tbody>
             </table>
         </div>
