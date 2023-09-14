@@ -42,7 +42,7 @@ class ModelPengaduan extends Model
 
     public function UpdateStatus($dataa)
     {
-        $this->db->table('pengaduan')->update($dataa);
+        $this->db->table('pengaduan')->where('id_pengaduan', $dataa['id_pengaduan'])->update($dataa);
     }
 
     public function UpdateData($data)

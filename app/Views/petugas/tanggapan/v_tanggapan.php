@@ -103,7 +103,8 @@
                 </div>
                 <div class="modal-footer justify-content-between">
                     <button type="button" class="btn btn-default btn-flat" data-dismiss="modal">Close</button>
-                    <a href="<?= base_url('ControllerTanggapan/ApplyData/' . $value['id_tanggapan']) ?>" class="btn btn-info btn-flat">Apply</a>
+                    <a href="<?= base_url('ControllerTanggapan/ApplyData/' . $value['id_tanggapan'] . '/' . $value['id_pengaduan']) ?>" class="btn btn-info btn-flat">Apply</a>
+
                 </div>
             </div>
             <!-- /.modal-content -->

@@ -95,7 +95,7 @@
                 </div>
                 <?php echo form_open_multipart('ControllerTanggapan/InsertData/' . $value['id_pengaduan']) ?>
                 <div class="modal-body">
-                    <div class="form-group" hidden>
+                    <div class="form-group">
                         <label for="">ID Pengaduan</label>
                         <input name="id_pengaduan" class="form-control" value="<?= $value['id_pengaduan'] ?>" readonly>
                     </div>

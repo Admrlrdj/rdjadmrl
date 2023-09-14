@@ -54,22 +54,28 @@ class ControllerTanggapan extends BaseController
         ];
 
         $dataa = [
+            'id_pengaduan' => $id_pengaduan,
             'status' => '1',
         ];
 
-        $this->ModelTanggapan->InsertData($data);
         $this->ModelPengaduan->UpdateStatus($dataa);
+        $this->ModelTanggapan->InsertData($data);
         session()->setFlashdata('pesan', 'Tanggapan berhasil ditambahkan');
         return redirect()->to(base_url('ControllerTanggapan/PetugasIndex'));
     }
 
-    public function ApplyData($id_tanggapan)
+    public function ApplyData($id_pengaduan, $id_tanggapan)
     {
         $data = [
             'id_tanggapan' => $id_tanggapan,
+        ];
+
+        $dataa = [
+            'id_pengaduan' => $id_pengaduan,
             'status' => '2',
         ];
 
+        $this->ModelPengaduan->UpdateStatus($dataa);
         $this->ModelTanggapan->ApplyData($data);
         session()->setFlashdata('pesan', 'Laporan Selesai!!');
         return redirect()->to('ControllerTanggapan/PetugasIndex');
