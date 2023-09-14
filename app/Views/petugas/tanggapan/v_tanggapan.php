@@ -38,29 +38,46 @@
                     </tr>
                 </thead>
                 <tbody>
-                    <?php $no = 1;
-                    foreach ($tanggapanPetugas as $key => $value) { ?>
-                        <tr class="text-center">
-                            <td><?= $no++ ?></td>
-                            <td><?= $value['tgl_pengaduan'] ?></td>
-                            <td><?= $value['tgl_tanggapan'] ?></td>
-                            <td><?= $value['nik'] ?></td>
-                            <td><?= $value['nama'] ?></td>
-                            <td><?= $value['isi_laporan'] ?></td>
-                            <td><img src="<?= base_url('uploads/' . $value['foto']) ?>" class="img-fluid" alt="Foto Laporan" width="250" height="250"></td>
-                            <td><?= $value['tanggapan'] ?></td>
-                            <td><?php
-                                if ($value['status'] == '0') {
-                                    echo 'Belum Diproses';
-                                } elseif ($value['status'] == '1') {
-                                    echo 'Sedang Diproses';
-                                } elseif ($value['status'] == '2') {
-                                    echo 'Sudah Diproses';
-                                } else {
-                                    echo 'Status Tidak Valid'; // Handle invalid status values if needed
-                                }
-                                ?></td>
-                            <td><?= $value['nama_petugas'] ?></td>
+                    <?php
+                    $no = 1;
+                    $adaLaporan = false; // Variabel untuk melacak apakah ada laporan yang sesuai kondisi
+
+                    foreach ($tanggapanPetugas as $key => $value) {
+                        if ($value['status'] === '1' || $value['status'] === '2') {
+                            $adaLaporan = true; // Set variabel ini menjadi true jika ada laporan yang sesuai kondisi
+                    ?>
+                            <tr class="text-center">
+                                <td><?= $no++ ?></td>
+                                <td><?= $value['tgl_pengaduan'] ?></td>
+                                <td><?= $value['tgl_tanggapan'] ?></td>
+                                <td><?= $value['nik'] ?></td>
+                                <td><?= $value['nama'] ?></td>
+                                <td><?= $value['isi_laporan'] ?></td>
+                                <td><img src="<?= base_url('uploads/' . $value['foto']) ?>" class="img-fluid" alt="Foto Laporan" width="250" height="250"></td>
+                                <td><?= $value['tanggapan'] ?></td>
+                                <td><?php
+                                    if ($value['status'] == 0) { ?>
+                                        <span class="badge bg-secondary">Belum Diproses</span>
+                                    <?php } elseif ($value['status'] == 1) { ?>
+                                        <span class="badge bg-primary">Sedang Diproses</span>
+                                    <?php } elseif ($value['status'] == 2) { ?>
+                                        <span class="badge bg-success">Sudah Diproses</span>
+                                    <?php } else { ?>
+                                        <span class="badge bg-secondary">Tidak Valid </span>
+                                    <?php } ?>
+                                </td>
+                                <td><?= $value['nama_petugas'] ?></td>
+                                <td>
+                                    <button class="btn btn-info btn-sm btn-flat" data-toggle="modal" data-target="#apply-tanggapan<?= $value['id_tanggapan'] ?>"><i class="fas fa-check"></i></button>
+                                </td>
+                            </tr>
+                        <?php }
+                    }
+
+                    // Tampilkan teks "Tidak ada Laporan" jika tidak ada laporan yang sesuai kondisi
+                    if (!$adaLaporan) { ?>
+                        <tr>
+                            <td colspan="11" class="text-center">Tidak ada Tanggapan</td>
                         </tr>
                     <?php } ?>
                 </tbody>
@@ -71,23 +88,22 @@
     <!-- /.card -->
 </div>
 
-<!-- /delete-modal -->
 <?php foreach ($tanggapanPetugas as $key => $value) { ?>
     <div class="modal fade" id="apply-tanggapan<?= $value['id_tanggapan'] ?>">
         <div class="modal-dialog">
             <div class="modal-content">
                 <div class="modal-header">
-                    <h4 class="modal-title">Selesaikan Laporan</h4>
+                    <h4 class="modal-title">Apply Tanggapan</h4>
                     <button type="button" class="close" data-dismiss="modal" aria-label="Close">
                         <span aria-hidden="true">&times;</span>
                     </button>
                 </div>
                 <div class="modal-body">
-                    Apakah Anda Yakin Ingin Selesaikan Laporan..?
+                    Apakah Anda Yakin Ingin Apply Tanggapan?
                 </div>
                 <div class="modal-footer justify-content-between">
                     <button type="button" class="btn btn-default btn-flat" data-dismiss="modal">Close</button>
-                    <a href="<?= base_url('ControllerTanggapan/ApplyData/' . $value['id_tanggapan']) ?>" class="btn btn-info btn-flat">Yakin</a>
+                    <a href="<?= base_url('ControllerTanggapan/ApplyData/' . $value['id_tanggapan']) ?>" class="btn btn-info btn-flat">Apply</a>
                 </div>
             </div>
             <!-- /.modal-content -->

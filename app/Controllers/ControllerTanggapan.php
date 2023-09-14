@@ -44,13 +44,12 @@ class ControllerTanggapan extends BaseController
         ];
         return view('petugas/v_template', $data);
     }
-    public function InsertData()
+    public function InsertData($id_pengaduan)
     {
         $data = [
-            'id_pengaduan' => $this->request->getPost('id_pengaduan'), // Gunakan 'id_pengaduan' dari input tersembunyi
+            'id_pengaduan' => $id_pengaduan,
             'tgl_tanggapan' => date('Y-m-d H:i:s'),
             'tanggapan' => $this->request->getPost('tanggapan'),
-            'status' => '1',
             'id_petugas' => session()->get('id_petugas'),
         ];
 
@@ -58,9 +57,8 @@ class ControllerTanggapan extends BaseController
             'status' => '1',
         ];
 
-
-        $this->ModelPengaduan->UpdateStatus($dataa);
         $this->ModelTanggapan->InsertData($data);
+        $this->ModelPengaduan->UpdateStatus($dataa);
         session()->setFlashdata('pesan', 'Tanggapan berhasil ditambahkan');
         return redirect()->to(base_url('ControllerTanggapan/PetugasIndex'));
     }
@@ -72,13 +70,8 @@ class ControllerTanggapan extends BaseController
             'status' => '2',
         ];
 
-        $dataa = [
-            'status' => '2',
-        ];
-
-        $this->ModelPengaduan->UpdateStatus($dataa);
         $this->ModelTanggapan->ApplyData($data);
         session()->setFlashdata('pesan', 'Laporan Selesai!!');
-        return redirect()->to('ControllerTanggapan');
+        return redirect()->to('ControllerTanggapan/PetugasIndex');
     }
 }

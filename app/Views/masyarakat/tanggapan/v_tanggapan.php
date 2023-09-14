@@ -37,12 +37,13 @@
                     </tr>
                 </thead>
                 <tbody>
-                    <?php $no = 1;
-                    $adaTanggapan = false;
+                    <?php
+                    $no = 1;
+                    $adaLaporan = false; // Variabel untuk melacak apakah ada laporan yang sesuai kondisi
 
                     foreach ($tanggapan as $key => $value) {
                         if ($value['status'] === '1' || $value['status'] === '2') {
-                            $adaTanggapan = true;
+                            $adaLaporan = true; // Set variabel ini menjadi true jika ada laporan yang sesuai kondisi
                     ?>
                             <tr class="text-center">
                                 <td><?= $no++ ?></td>
@@ -54,22 +55,23 @@
                                 <td><img src="<?= base_url('uploads/' . $value['foto']) ?>" class="img-fluid" alt="Foto Laporan" width="250" height="250"></td>
                                 <td><?= $value['tanggapan'] ?></td>
                                 <td><?php
-                                    if ($value['status'] == '0') {
-                                        echo 'Belum Diproses';
-                                    } elseif ($value['status'] == '1') {
-                                        echo 'Sedang Diproses';
-                                    } elseif ($value['status'] == '2') {
-                                        echo 'Sudah Diproses';
-                                    } else {
-                                        echo 'Status Tidak Valid'; // Handle invalid status values if needed
-                                    }
-                                    ?></td>
+                                    if ($value['status'] == 0) { ?>
+                                        <span class="badge bg-secondary">Belum Diproses</span>
+                                    <?php } elseif ($value['status'] == 1) { ?>
+                                        <span class="badge bg-primary">Sedang Diproses</span>
+                                    <?php } elseif ($value['status'] == 2) { ?>
+                                        <span class="badge bg-success">Sudah Diproses</span>
+                                    <?php } else { ?>
+                                        <span class="badge bg-secondary">Tidak Valid </span>
+                                    <?php } ?>
+                                </td>
                                 <td><?= $value['nama_petugas'] ?></td>
                             </tr>
                         <?php }
                     }
 
-                    if (!$adaTanggapan) { ?>
+                    // Tampilkan teks "Tidak ada Laporan" jika tidak ada laporan yang sesuai kondisi
+                    if (!$adaLaporan) { ?>
                         <tr>
                             <td colspan="10" class="text-center">Tidak ada Tanggapan</td>
                         </tr>

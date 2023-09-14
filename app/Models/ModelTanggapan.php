@@ -27,7 +27,7 @@ class ModelTanggapan extends Model
         return $db->get()->getResultArray();
     }
 
-    public function insertData($data)
+    public function InsertData($data)
     {
         $this->db->table('tanggapan')->insert($data);
     }
