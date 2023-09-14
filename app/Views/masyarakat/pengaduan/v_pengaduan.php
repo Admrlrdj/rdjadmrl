@@ -42,9 +42,14 @@
                     </tr>
                 </thead>
                 <tbody>
-                    <?php $no = 1;
+                    <?php
+                    $no = 1;
+                    $adaLaporan = false; // Variabel untuk melacak apakah ada laporan yang sesuai kondisi
+
                     foreach ($pengaduan as $key => $value) {
-                        if ($value['status'] === '0') { ?>
+                        if ($value['status'] === '0') {
+                            $adaLaporan = true; // Set variabel ini menjadi true jika ada laporan yang sesuai kondisi
+                    ?>
                             <tr class="text-center">
                                 <td><?= $no++ ?></td>
                                 <td><?= $value['tgl_pengaduan'] ?></td>
@@ -68,9 +73,15 @@
                                     <button class="btn btn-danger btn-sm btn-flat" data-toggle="modal" data-target="#delete-pengaduan<?= $value['id_pengaduan'] ?>"><i class="fas fa-trash"></i></button>
                                 </td>
                             </tr>
-                        <?php } else { ?>
-                    <?php }
-                    } ?>
+                        <?php }
+                    }
+
+                    // Tampilkan teks "Tidak ada Laporan" jika tidak ada laporan yang sesuai kondisi
+                    if (!$adaLaporan) { ?>
+                        <tr>
+                            <td colspan="10" class="text-center">Tidak ada Laporan</td>
+                        </tr>
+                    <?php } ?>
                 </tbody>
             </table>
         </div>

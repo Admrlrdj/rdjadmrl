@@ -31,4 +31,9 @@ class ModelTanggapan extends Model
     {
         $this->db->table('tanggapan')->insert($data);
     }
+
+    public function ApplyData($data)
+    {
+        $this->db->table('tanggapan')->update($data);
+    }
 }

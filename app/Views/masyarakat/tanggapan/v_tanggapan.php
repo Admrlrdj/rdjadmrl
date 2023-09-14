@@ -38,30 +38,42 @@
                 </thead>
                 <tbody>
                     <?php $no = 1;
-                    foreach ($tanggapan as $key => $value) { ?>
-                        <tr class="text-center">
-                            <td><?= $no++ ?></td>
-                            <td><?= $value['tgl_pengaduan'] ?></td>
-                            <td><?= $value['tgl_tanggapan'] ?></td>
-                            <td><?= $value['nik'] ?></td>
-                            <td><?= $value['nama'] ?></td>
-                            <td><?= $value['isi_laporan'] ?></td>
-                            <td><img src="<?= base_url('uploads/' . $value['foto']) ?>" class="img-fluid" alt="Foto Laporan" width="250" height="250"></td>
-                            <td><?= $value['tanggapan'] ?></td>
-                            <td><?php
-                                if ($value['status'] = '0') {
-                                    echo 'Belum Diproses';
-                                } elseif ($value['status'] = '1') {
-                                    echo 'Sedang Diproses';
-                                } elseif ($value['status'] = '2') {
-                                    echo 'Sudah Diproses';
-                                } else {
-                                    echo 'Status Tidak Valid'; // Handle invalid status values if needed
-                                }
-                                ?></td>
-                            <td><?= $value['nama_petugas'] ?></td>
+                    $adaTanggapan = false;
+
+                    foreach ($tanggapan as $key => $value) {
+                        if ($value['status'] === '1' || $value['status'] === '2') {
+                            $adaTanggapan = true;
+                    ?>
+                            <tr class="text-center">
+                                <td><?= $no++ ?></td>
+                                <td><?= $value['tgl_pengaduan'] ?></td>
+                                <td><?= $value['tgl_tanggapan'] ?></td>
+                                <td><?= $value['nik'] ?></td>
+                                <td><?= $value['nama'] ?></td>
+                                <td><?= $value['isi_laporan'] ?></td>
+                                <td><img src="<?= base_url('uploads/' . $value['foto']) ?>" class="img-fluid" alt="Foto Laporan" width="250" height="250"></td>
+                                <td><?= $value['tanggapan'] ?></td>
+                                <td><?php
+                                    if ($value['status'] == '0') {
+                                        echo 'Belum Diproses';
+                                    } elseif ($value['status'] == '1') {
+                                        echo 'Sedang Diproses';
+                                    } elseif ($value['status'] == '2') {
+                                        echo 'Sudah Diproses';
+                                    } else {
+                                        echo 'Status Tidak Valid'; // Handle invalid status values if needed
+                                    }
+                                    ?></td>
+                                <td><?= $value['nama_petugas'] ?></td>
+                            </tr>
+                        <?php }
+                    }
+
+                    if (!$adaTanggapan) { ?>
+                        <tr>
+                            <td colspan="10" class="text-center">Tidak ada Tanggapan</td>
                         </tr>
-                    <?php  } ?>
+                    <?php } ?>
                 </tbody>
             </table>
         </div>
