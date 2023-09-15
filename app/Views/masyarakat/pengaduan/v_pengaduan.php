@@ -90,6 +90,50 @@
     <!-- /.card -->
 </div>
 
+<?php foreach ($pengaduan as $key => $value) { ?>
+    <!-- /edit-modal -->
+    <div class="modal fade" id="edit-pengaduan<?= $value['id_pengaduan'] ?>">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h4 class="modal-title">Edit Pengaduan</h4>
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                        <span aria-hidden="true">&times;</span>
+                    </button>
+                </div>
+                <?php echo form_open_multipart('ControllerPengaduan/UpdateData/' . $value['id_pengaduan']) ?>
+                <div class="modal-body">
+                    <div class="form-group">
+                        <label for="">NIK</label>
+                        <input name="nik" class="form-control" value="<?= $value['nik'] ?>" required readonly>
+                    </div>
+                    <div class="form-group">
+                        <label for="">Nama</label>
+                        <input name="nama" class="form-control" value="<?= $value['nama'] ?>" required readonly>
+                    </div>
+                    <div class="form-group">
+                        <label for="">Isi Laporan</label>
+                        <input name="a" class="form-control" value="<?= $value['isi_laporan'] ?>" placeholder="Isi Laporan" required>
+                    </div>
+                    <div class="form-group">
+                        <label>Foto</label><br>
+                        <input name="foto" class="form-control" readonly hidden>
+                        <img src="<?= base_url('uploads/' . $value['foto']) ?>" class="img-fluid" alt="Foto Pengaduan" width="250" height="250" />
+                    </div>
+                </div>
+                <div class="modal-footer justify-content-between">
+                    <button type="button" class="btn btn-default btn-flat" data-dismiss="modal">Close</button>
+                    <button type="submit" class="btn btn-primary btn-flat">Update</button>
+                </div>
+                <?php echo form_fieldset_close() ?>
+            </div>
+            <!-- /.modal-content -->
+        </div>
+        <!-- /.modal-dialog -->
+    </div>
+    <!-- /.modal -->
+<?php } ?>
+
 <!-- /add-modal -->
 <div class="modal fade" id="add-pengaduan">
     <div class="modal-dialog">
@@ -130,6 +174,7 @@
     <!-- /.modal-dialog -->
 </div>
 <!-- /.modal -->
+
 
 <!-- /delete-modal -->
 <?php foreach ($pengaduan as $key => $value) { ?>

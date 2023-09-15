@@ -9,7 +9,7 @@ class ModelTanggapan extends Model
     public function AllDataMasyarakat($nik)
     {
         $db = $this->db->table('tanggapan');
-        $db->select('tanggapan.id_tanggapan, pengaduan.id_pengaduan, tanggapan.id_pengaduan, pengaduan.tgl_pengaduan, tanggapan.tgl_tanggapan, pengaduan.nik, masyarakat.nama, pengaduan.foto, pengaduan.isi_laporan, tanggapan.tanggapan, tanggapan.id_petugas, petugas.nama_petugas, pengaduan.status');
+        $db->select('tanggapan.id_tanggapan, pengaduan.id_pengaduan, tanggapan.id_pengaduan, pengaduan.tgl_pengaduan, tanggapan.tgl_tanggapan, pengaduan.nik, masyarakat.nama, pengaduan.foto, pengaduan.isi_laporan, tanggapan.tanggapan, tanggapan.id_petugas, petugas.nama_petugas, pengaduan.status, tanggapan.status');
         $db->join('pengaduan', 'pengaduan.id_pengaduan = tanggapan.id_pengaduan', 'left');
         $db->join('petugas', 'petugas.id_petugas = tanggapan.id_petugas', 'left');
         $db->join('masyarakat', 'masyarakat.nik = pengaduan.nik', 'left');
@@ -20,7 +20,7 @@ class ModelTanggapan extends Model
     public function AllDataPetugas()
     {
         $db = $this->db->table('tanggapan');
-        $db->select('tanggapan.id_tanggapan, pengaduan.id_pengaduan, tanggapan.id_pengaduan, pengaduan.tgl_pengaduan, tanggapan.tgl_tanggapan, pengaduan.nik, masyarakat.nama, pengaduan.foto, pengaduan.isi_laporan, tanggapan.tanggapan, tanggapan.id_petugas, petugas.nama_petugas, pengaduan.status');
+        $db->select('tanggapan.id_tanggapan, pengaduan.id_pengaduan, tanggapan.id_pengaduan, pengaduan.tgl_pengaduan, tanggapan.tgl_tanggapan, pengaduan.nik, masyarakat.nama, pengaduan.foto, pengaduan.isi_laporan, tanggapan.tanggapan, tanggapan.id_petugas, petugas.nama_petugas, pengaduan.status, tanggapan.status');
         $db->join('pengaduan', 'pengaduan.id_pengaduan = tanggapan.id_pengaduan', 'left');
         $db->join('petugas', 'petugas.id_petugas = tanggapan.id_petugas', 'left');
         $db->join('masyarakat', 'masyarakat.nik = pengaduan.nik', 'left');
@@ -34,6 +34,6 @@ class ModelTanggapan extends Model
 
     public function ApplyData($data)
     {
-        $this->db->table('tanggapan')->update($data);
+        $this->db->table('tanggapan')->where('id_tanggapan', $data['id_tanggapan'])->update($data);
     }
 }

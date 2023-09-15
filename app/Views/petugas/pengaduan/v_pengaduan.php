@@ -126,11 +126,11 @@
                     </div>
                     <div class="form-group" hidden>
                         <label for="">Status</label>
-                        <input name="status" class="form-control" value="<?php if ($value['status'] = '0') {
+                        <input name="status" class="form-control" value="<?php if ($value['status'] == '0') {
                                                                                 echo 'Belum Diproses';
-                                                                            } elseif ($value['status'] = '1') {
+                                                                            } elseif ($value['status'] == '1') {
                                                                                 echo 'Sedang Diproses';
-                                                                            } elseif ($value['status'] = '2') {
+                                                                            } elseif ($value['status'] == '2') {
                                                                                 echo 'Sudah Diproses';
                                                                             } else {
                                                                                 echo 'Status Tidak Valid'; // Handle invalid status values if needed
@@ -146,7 +146,7 @@
                     <button type="button" class="btn btn-default btn-flat" data-dismiss="modal">Close</button>
                     <button type="submit" class="btn btn-primary btn-flat">Save</button>
                 </div>
-                <?php echo form_fieldset_close() ?>
+                <?php echo form_close() ?>
             </div>
             <!-- /.modal-content -->
         </div>

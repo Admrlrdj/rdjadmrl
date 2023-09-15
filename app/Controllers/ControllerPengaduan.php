@@ -75,28 +75,19 @@ class ControllerPengaduan extends BaseController
         }
     }
 
-    // public function UpdateData($id_pengaduan)
-    // {
-    //     $file = $this->request->getFile('foto');
-
-    //     if ($file->isValid() && !$file->hasMoved()) {
-    //         $newName = $file->getRandomName();
-    //         $file->move('uploads', $newName);
-
-    //         $data = [
-    //             'id_pengaduan' => $id_pengaduan,
-    //             'nik' => $this->request->getPost('nik'),
-    //             'isi_laporan' => $this->request->getPost('isi_laporan'),
-    //             'foto' => $newName,
-    //             'status' => '0',
-    //         ];
-    //         $this->ModelPengaduan->UpdateData($data);
-    //         session()->setFlashdata('pesan', 'Upload Laporan Berhasil');
-    //         return redirect()->to(base_url('ControllerPengaduan'));
-    //     } else {
-    //         return redirect()->to(base_url('ControllerPengaduan'))->with('errors', ['Gambar tidak dapat diunggah.']);
-    //     }
-    // }
+    public function UpdateData($id_pengaduan)
+    {
+        $data = [
+            'id_pengaduan' => $id_pengaduan,
+            'nik' => $this->request->getPost('nik'),
+            'isi_laporan' => $this->request->getPost('isi_laporan'),
+            'foto' => $this->request->getGet('foto'),
+            'status' => '0',
+        ];
+        $this->ModelPengaduan->UpdateData($data);
+        session()->setFlashdata('pesan', 'Upload Laporan Berhasil');
+        return redirect()->to(base_url('ControllerPengaduan'));
+    }
 
     public function DeleteData($id_pengaduan)
     {

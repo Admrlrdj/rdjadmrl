@@ -51,6 +51,7 @@ class ControllerTanggapan extends BaseController
             'tgl_tanggapan' => date('Y-m-d H:i:s'),
             'tanggapan' => $this->request->getPost('tanggapan'),
             'id_petugas' => session()->get('id_petugas'),
+            'status' => '1',
         ];
 
         $dataa = [
@@ -64,14 +65,15 @@ class ControllerTanggapan extends BaseController
         return redirect()->to(base_url('ControllerTanggapan/PetugasIndex'));
     }
 
-    public function ApplyData($id_pengaduan, $id_tanggapan)
+    public function ApplyData($id_tanggapan)
     {
         $data = [
             'id_tanggapan' => $id_tanggapan,
+            'status' => '2',
         ];
 
         $dataa = [
-            'id_pengaduan' => $id_pengaduan,
+            'id_pengaduan' => $this->request->getGet('id_pengaduan'),
             'status' => '2',
         ];
 
