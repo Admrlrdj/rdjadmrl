@@ -77,17 +77,46 @@ class ControllerPengaduan extends BaseController
 
     public function UpdateData($id_pengaduan)
     {
-        $data = [
-            'id_pengaduan' => $id_pengaduan,
-            'nik' => $this->request->getPost('nik'),
-            'isi_laporan' => $this->request->getPost('isi_laporan'),
-            'foto' => $this->request->getGet('foto'),
-            'status' => '0',
-        ];
-        $this->ModelPengaduan->UpdateData($data);
-        session()->setFlashdata('pesan', 'Upload Laporan Berhasil');
-        return redirect()->to(base_url('ControllerPengaduan'));
+        $file = $this->request->getFile('foto');
+
+        // Mengambil data lama berdasarkan ID pengaduan
+        $dataLama = $this->ModelPengaduan->getDataById($id_pengaduan);
+
+        if ($file !== null && $file->isValid() && !$file->hasMoved()) {
+            // Menghapus foto lama jika ada
+            if ($dataLama && !empty($dataLama['foto'])) {
+                unlink('uploads/' . $dataLama['foto']);
+            }
+
+            // Mengunggah foto baru
+            $newName = $file->getRandomName();
+            $file->move('uploads', $newName);
+
+            $data = [
+                'id_pengaduan' => $id_pengaduan,
+                'nik' => $this->request->getPost('nik'),
+                'isi_laporan' => $this->request->getPost('isi_laporan'),
+                'foto' => $newName,
+                'status' => '0',
+            ];
+            $this->ModelPengaduan->UpdateData($data);
+            session()->setFlashdata('pesan', 'Edit Laporan Berhasil');
+            return redirect()->to(base_url('ControllerPengaduan'));
+        } else {
+            // Jika tidak ada file yang diunggah, pertahankan foto yang sudah ada
+            $data = [
+                'id_pengaduan' => $id_pengaduan,
+                'nik' => $this->request->getPost('nik'),
+                'isi_laporan' => $this->request->getPost('isi_laporan'),
+                'status' => '0',
+            ];
+            $this->ModelPengaduan->UpdateData($data);
+            session()->setFlashdata('pesan', 'Edit Laporan Berhasil');
+            return redirect()->to(base_url('ControllerPengaduan'));
+        }
     }
+
+
 
     public function DeleteData($id_pengaduan)
     {

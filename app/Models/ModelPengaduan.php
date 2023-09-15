@@ -54,4 +54,15 @@ class ModelPengaduan extends Model
     {
         $this->db->table('pengaduan')->where('id_pengaduan', $data['id_pengaduan'])->delete($data);
     }
+
+    public function getDataById($id_pengaduan)
+    {
+        // Mengambil data lama berdasarkan ID pengaduan
+        $db = $this->db->table('pengaduan');
+        $db->select('*');
+        $db->where('id_pengaduan', $id_pengaduan);
+        $result = $db->get()->getRowArray();
+
+        return $result;
+    }
 }
