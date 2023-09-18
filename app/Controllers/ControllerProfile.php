@@ -87,10 +87,67 @@ class ControllerProfile extends BaseController
 
             $this->ModelMasyarakat->UpdateData($data);
             session()->setFlashdata('pesan', 'Data Berhasil Diubah!!');
-            return redirect()->to('ControllerProfile');
+            return redirect()->to('/profile');
         } else {
             session()->setFlashdata('errors', \Config\Services::validation()->getErrors());
-            return redirect()->to(base_url('ControllerProfil'));
+            return redirect()->to(base_url('/profile'));
+        }
+    }
+
+    public function UpdateProfilePetugas($id_petugas)
+    {
+        if ($this->validate([
+            'nama_petugas' => [
+                'label' => 'Nama',
+                'rules' => 'required',
+                'errors' => [
+                    'required' => '{field} Wajib Diisi!!'
+                ]
+            ],
+            'username' => [
+                'label' => 'Username',
+                'rules' => 'required',
+                'errors' => [
+                    'required' => '{field} Wajib Diisi!!'
+                ]
+            ],
+            'password' => [
+                'label' => 'Password',
+                'rules' => 'required',
+                'errors' => [
+                    'required' => '{field} Wajib Diisi!!'
+                ]
+            ],
+            'repassword' => [
+                'label' => 'Retype Password',
+                'rules' => 'required|matches[password]',
+                'errors' => [
+                    'required' => '{field} Wajid Diisi!!',
+                    'matches' => '{field} Tidak Sama dengan Password!!'
+                ]
+            ],
+            'telp' => [
+                'label' => 'No. Telepon',
+                'rules' => 'required',
+                'errors' => [
+                    'required' => '{field} Wajib Diisi!!'
+                ]
+            ],
+        ])) {
+            $data = [
+                'id_petugas' => $id_petugas,
+                'nama_petugas' => $this->request->getPost('nama_petugas'),
+                'username' => $this->request->getPost('username'),
+                'password' => $this->request->getPost('password'),
+                'telp' => $this->request->getPost('telp'),
+            ];
+
+            $this->ModelPetugas->UpdateData($data);
+            session()->setFlashdata('pesan', 'Data Berhasil Diubah!!');
+            return redirect()->to('/profile-admin');
+        } else {
+            session()->setFlashdata('errors', \Config\Services::validation()->getErrors());
+            return redirect()->to(base_url('/profile-admin'));
         }
     }
 }

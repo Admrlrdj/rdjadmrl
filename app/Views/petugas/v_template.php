@@ -36,7 +36,7 @@
                     </a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link" href="<?= base_url('Home/Logout') ?>" role="button">
+                    <a class="nav-link" href="<?= base_url('/logout') ?>" role="button">
                         <i class="fas fa-sign-out-alt"></i>
                     </a>
                 </li>
@@ -70,7 +70,7 @@
                 <nav class="mt-2">
                     <ul class="nav nav-pills nav-sidebar flex-column" data-widget="treeview" role="menu" data-accordion="false">
                         <li class="nav-item">
-                            <a href="<?= base_url('ControllerProfile/PetugasProfile') ?>" class="nav-link <?= $menu == 'profile' ? 'active' : '' ?>">
+                            <a href="<?= base_url('/profile-admin') ?>" class="nav-link <?= $menu == 'profile' ? 'active' : '' ?>">
                                 <i class="nav-icon fas fa-solid fa-user"></i>
                                 <p>
                                     Profile
@@ -79,7 +79,7 @@
                         </li>
                         <?php if (session()->get('level') == 'admin') { ?>
                             <li class="nav-item">
-                                <a href="<?= base_url('ControllerUser') ?>" class="nav-link <?= $menu == 'user' ? 'active' : '' ?>">
+                                <a href="<?= base_url('/user') ?>" class="nav-link <?= $menu == 'user' ? 'active' : '' ?>">
                                     <i class="nav-icon fas fa-solid fa-user"></i>
                                     <p>
                                         User
@@ -87,7 +87,7 @@
                                 </a>
                             </li>
                             <li class="nav-item">
-                                <a href="<?= base_url('ControllerAdmin') ?>" class="nav-link <?= $menu == 'admin' ? 'active' : '' ?>">
+                                <a href="<?= base_url('/admin') ?>" class="nav-link <?= $menu == 'admin' ? 'active' : '' ?>">
                                     <i class="nav-icon fas fa-solid fa-user"></i>
                                     <p>
                                         Admin
@@ -97,7 +97,7 @@
                         <?php } ?>
                         <br>
                         <li class="nav-item">
-                            <a href="<?= base_url('ControllerPengaduan/PetugasIndex') ?>" class="nav-link <?= $menu == 'pengaduan' ? 'active' : '' ?>">
+                            <a href="<?= base_url('/pengaduan-admin') ?>" class="nav-link <?= $menu == 'pengaduan' ? 'active' : '' ?>">
                                 <i class="nav-icon fas fa-file"></i>
                                 <p>
                                     Pengaduan
@@ -105,7 +105,7 @@
                             </a>
                         </li>
                         <li class="nav-item">
-                            <a href="<?= base_url('ControllerTanggapan/PetugasIndex') ?>" class="nav-link <?= $menu == 'tanggapan' ? 'active' : '' ?>">
+                            <a href="<?= base_url('/tanggapan-admin') ?>" class="nav-link <?= $menu == 'tanggapan' ? 'active' : '' ?>">
                                 <i class="nav-icon fas fa-comment"></i>
                                 <p>
                                     Tanggapan

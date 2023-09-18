@@ -38,7 +38,7 @@ class ControllerAdmin extends BaseController
 
         $this->ModelPetugas->InsertData($data);
         session()->setFlashdata('pesan', 'Data Berhasil Ditambahkan!!');
-        return redirect()->to('ControllerAdmin');
+        return redirect()->to('/admin');
     }
 
     public function UpdateData($id_petugas)
@@ -54,7 +54,7 @@ class ControllerAdmin extends BaseController
 
         $this->ModelPetugas->UpdateData($data);
         session()->setFlashdata('pesan', 'Data Berhasil Diubah!!');
-        return redirect()->to('ControllerAdmin');
+        return redirect()->to('/admin');
     }
 
     public function DeleteData($id_petugas)
@@ -65,6 +65,6 @@ class ControllerAdmin extends BaseController
 
         $this->ModelPetugas->DeleteData($data);
         session()->setFlashdata('pesan', 'Data Berhasil Dihapus!!');
-        return redirect()->to('ControllerAdmin');
+        return redirect()->to('/admin');
     }
 }

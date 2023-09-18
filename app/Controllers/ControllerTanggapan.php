@@ -62,7 +62,7 @@ class ControllerTanggapan extends BaseController
         $this->ModelPengaduan->UpdateStatus($dataa);
         $this->ModelTanggapan->InsertData($data);
         session()->setFlashdata('pesan', 'Tanggapan berhasil ditambahkan');
-        return redirect()->to(base_url('ControllerTanggapan/PetugasIndex'));
+        return redirect()->to(base_url('/tanggapan-admin'));
     }
 
     public function ApplyData($id_tanggapan)
@@ -80,6 +80,22 @@ class ControllerTanggapan extends BaseController
         $this->ModelPengaduan->UpdateStatus($dataa);
         $this->ModelTanggapan->ApplyData($data);
         session()->setFlashdata('pesan', 'Laporan Selesai!!');
-        return redirect()->to('ControllerTanggapan/PetugasIndex');
+        return redirect()->to('/tanggapan-admin');
+    }
+
+    public function DeleteData($id_tanggapan)
+    {
+        $data = [
+            'id_tanggapan' => $id_tanggapan,
+        ];
+
+        $dataa = [
+            'id_pengaduan' => $this->request->getGet('id_pengaduan'),
+        ];
+
+        $this->ModelPengaduan->DeleteDataa($dataa);
+        $this->ModelTanggapan->DeleteData($data);
+        session()->setFlashdata('pesan', 'Data Berhasil Dihapus!!');
+        return redirect()->to('/tanggapan');
     }
 }

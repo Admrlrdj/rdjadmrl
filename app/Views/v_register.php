@@ -47,7 +47,7 @@
                     echo '</h5></div>';
                 } ?>
 
-                <?php echo form_open('Home/SaveRegister') ?>
+                <?php echo form_open('/saveregister') ?>
                 <div class="input-group mb-3">
                     <input type="text" name="nik" id="nik" class="form-control" placeholder="NIK">
                     <div class="input-group-append">
@@ -104,7 +104,7 @@
                 </div>
                 <?php form_close() ?>
 
-                <a href="<?= base_url('Home') ?>" class="text-center">I already have a membership</a>
+                <a href="<?= base_url('') ?>" class="text-center">I already have a membership</a>
             </div>
             <!-- /.form-box -->
         </div><!-- /.card -->

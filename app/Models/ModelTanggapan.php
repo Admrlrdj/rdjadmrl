@@ -36,4 +36,9 @@ class ModelTanggapan extends Model
     {
         $this->db->table('tanggapan')->where('id_tanggapan', $data['id_tanggapan'])->update($data);
     }
+
+    public function DeleteData($data)
+    {
+        $this->db->table('tanggapan')->where('id_tanggapan', $data['id_tanggapan'])->delete($data);
+    }
 }

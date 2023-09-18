@@ -79,7 +79,7 @@
                     <span aria-hidden="true">&times;</span>
                 </button>
             </div>
-            <?php echo form_open('ControllerAdmin/InsertData') ?>
+            <?php echo form_open('/add-admin') ?>
             <div class="modal-body">
                 <div class="form-group">
                     <label for="">Nama Petugas</label>
@@ -128,7 +128,7 @@
                         <span aria-hidden="true">&times;</span>
                     </button>
                 </div>
-                <?php echo form_open('ControllerAdmin/UpdateData/' . $value['id_petugas']) ?>
+                <?php echo form_open('/edit-admin/' . $value['id_petugas']) ?>
                 <div class="modal-body">
                     <div class="form-group">
                         <label for="">Nama Petugas</label>
@@ -183,7 +183,7 @@
                 </div>
                 <div class="modal-footer justify-content-between">
                     <button type="button" class="btn btn-default btn-flat" data-dismiss="modal">Close</button>
-                    <a href="<?= base_url('ControllerAdmin/DeleteData/' . $value['id_petugas']) ?>" class="btn btn-danger btn-flat">Delete</a>
+                    <a href="<?= base_url('/delete-admin/' . $value['id_petugas']) ?>" class="btn btn-danger btn-flat">Delete</a>
                 </div>
             </div>
             <!-- /.modal-content -->

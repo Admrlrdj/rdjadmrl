@@ -58,9 +58,9 @@
                     echo '</h5></div>';
                 } ?>
 
-                <?= form_open('ControllerProfile/UpdateProfile/' . session()->get('id_petugas')) ?>
+                <?= form_open('/updateprofile-admin/' . session()->get('id_petugas')) ?>
                 <div class="input-group mb-3">
-                    <input type="text" name="nama" id="nama" class="form-control" value="<?= session()->get('nama_petugas') ?>" placeholder="Nama">
+                    <input type="text" name="nama_petugas" id="nama" class="form-control" value="<?= session()->get('nama_petugas') ?>" placeholder="Nama">
                     <div class="input-group-append">
                         <div class="input-group-text">
                             <i class="fas fa-user"></i>

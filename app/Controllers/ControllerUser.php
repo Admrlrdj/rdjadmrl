@@ -30,6 +30,7 @@ class ControllerUser extends BaseController
     {
         $data = [
             'id' => $id,
+            'nik' => $this->request->getPost('nik'),
             'nama' => $this->request->getPost('nama'),
             'username' => $this->request->getPost('username'),
             'password' => $this->request->getPost('password'),
@@ -38,7 +39,7 @@ class ControllerUser extends BaseController
 
         $this->ModelMasyarakat->UpdateData($data);
         session()->setFlashdata('pesan', 'Data Berhasil Diubah!!');
-        return redirect()->to('ControllerUser');
+        return redirect()->to('/user');
     }
 
     public function DeleteData($id)
@@ -49,6 +50,6 @@ class ControllerUser extends BaseController
 
         $this->ModelMasyarakat->DeleteData($data);
         session()->setFlashdata('pesan', 'Data Berhasil Dihapus!!');
-        return redirect()->to('ControllerUser');
+        return redirect()->to('/user');
     }
 }

@@ -55,7 +55,7 @@
                     echo '</h5></div>';
                 } ?>
 
-                <?= form_open('ControllerProfile/UpdateProfile/' . session()->get('id')) ?>
+                <?= form_open('/updateprofile/' . session()->get('id')) ?>
                 <div class="input-group mb-3">
                     <input type="text" name="nik" id="nik" class="form-control" value="<?= session()->get('nik') ?>" placeholder="NIK" readonly>
                     <div class="input-group-append">

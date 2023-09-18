@@ -68,7 +68,7 @@
                         <span aria-hidden="true">&times;</span>
                     </button>
                 </div>
-                <?php echo form_open('ControllerUser/UpdateData/' . $value['id']) ?>
+                <?php echo form_open('/edit-user/' . $value['id']) ?>
                 <div class="modal-body">
                     <div class="form-group">
                         <label for="">NIK</label>
@@ -120,7 +120,7 @@
                 </div>
                 <div class="modal-footer justify-content-between">
                     <button type="button" class="btn btn-default btn-flat" data-dismiss="modal">Close</button>
-                    <a href="<?= base_url('ControllerUser/DeleteData/' . $value['id']) ?>" class="btn btn-danger btn-flat">Delete</a>
+                    <a href="<?= base_url('/delete-user/' . $value['id']) ?>" class="btn btn-danger btn-flat">Delete</a>
                 </div>
             </div>
             <!-- /.modal-content -->

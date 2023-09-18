@@ -55,6 +55,11 @@ class ModelPengaduan extends Model
         $this->db->table('pengaduan')->where('id_pengaduan', $data['id_pengaduan'])->delete($data);
     }
 
+    public function DeleteDataa($dataa)
+    {
+        $this->db->table('pengaduan')->where('id_pengaduan', $dataa['id_pengaduan'])->delete($dataa);
+    }
+
     public function getDataById($id_pengaduan)
     {
         // Mengambil data lama berdasarkan ID pengaduan

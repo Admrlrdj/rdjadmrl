@@ -47,7 +47,7 @@
                     echo '</h5></div>';
                 } ?>
 
-                <?php echo form_open('Home/CekLogin') ?>
+                <?php echo form_open('/ceklogin') ?>
                 <div class="input-group mb-3">
                     <input type="text" name="username" id="username" class="form-control" placeholder="Username">
                     <div class="input-group-append">
@@ -73,7 +73,7 @@
                 <?php form_close() ?>
 
                 <p class="mb-0">
-                    <a href="<?= base_url('Home/Register') ?>" class="text-center">Register a new membership</a>
+                    <a href="<?= base_url('/register') ?>" class="text-center">Register a new membership</a>
                 </p>
             </div>
             <!-- /.login-card-body -->

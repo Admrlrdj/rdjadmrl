@@ -54,7 +54,7 @@ class Home extends BaseController
                 session()->set('username', $cek_login['username']);
                 session()->set('password', $cek_login['password']);
                 session()->set('telp', $cek_login['telp']);
-                return redirect()->to(base_url('ControllerProfile'));
+                return redirect()->to(base_url('/profile'));
             } elseif ($cek_login_petugas) {
                 session()->set('id_petugas', $cek_login_petugas['id_petugas']);
                 session()->set('nama_petugas', $cek_login_petugas['nama_petugas']);
@@ -63,17 +63,17 @@ class Home extends BaseController
                 session()->set('telp', $cek_login_petugas['telp']);
                 session()->set('level', $cek_login_petugas['level']);
                 if ($cek_login_petugas['level'] == 'admin') {
-                    return redirect()->to(base_url('ControllerProfile/PetugasProfile'));
+                    return redirect()->to(base_url('/profile-admin'));
                 } else {
-                    return redirect()->to(base_url('ControllerProfile/PetugasProfile'));
+                    return redirect()->to(base_url('/profile-admin'));
                 }
             } else {
                 session()->setFlashdata('gagal', 'Username atau Password Salah!!');
-                return redirect()->to(base_url('Home'));
+                return redirect()->to(base_url(''));
             }
         } else {
             session()->setFlashdata('errors', \Config\Services::validation()->getErrors());
-            return redirect()->to(base_url('Home'))->withInput('validation', \Config\Services::validation());
+            return redirect()->to(base_url(''))->withInput('validation', \Config\Services::validation());
         }
     }
 
@@ -133,10 +133,10 @@ class Home extends BaseController
             ];
             $this->ModelMasyarakat->Save_Register($data);
             session()->setFlashdata('pesan', 'Registrasi Berhasil');
-            return redirect()->to(base_url('Home'));
+            return redirect()->to(base_url(''));
         } else {
             session()->setFlashdata('errors', \Config\Services::validation()->getErrors());
-            return redirect()->to(base_url('Home/Register'));
+            return redirect()->to(base_url('/register'));
         }
     }
 
@@ -149,6 +149,6 @@ class Home extends BaseController
         session()->remove('password');
         session()->remove('telp');
         session()->setFlashdata('pesan', 'Berhasil Logout');
-        return redirect()->to(base_url('Home'));
+        return redirect()->to(base_url(''));
     }
 }

@@ -36,7 +36,7 @@
                     </a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link" href="<?= base_url('Home/Logout') ?>" role="button">
+                    <a class="nav-link" href="<?= base_url('/logout') ?>" role="button">
                         <i class="fas fa-sign-out-alt"></i>
                     </a>
                 </li>
@@ -70,7 +70,7 @@
                 <nav class="mt-2">
                     <ul class="nav nav-pills nav-sidebar flex-column" data-widget="treeview" role="menu" data-accordion="false">
                         <li class="nav-item">
-                            <a href="<?= base_url('ControllerProfile') ?>" class="nav-link <?= $menu == 'profile' ? 'active' : '' ?>">
+                            <a href="<?= base_url('/profile') ?>" class="nav-link <?= $menu == 'profile' ? 'active' : '' ?>">
                                 <i class="nav-icon fas fa-solid fa-user"></i>
                                 <p>
                                     Profile
@@ -79,7 +79,7 @@
                         </li>
                         <br>
                         <li class="nav-item">
-                            <a href="<?= base_url('ControllerPengaduan') ?>" class="nav-link <?= $menu == 'pengaduan' ? 'active' : '' ?>">
+                            <a href="<?= base_url('/pengaduan') ?>" class="nav-link <?= $menu == 'pengaduan' ? 'active' : '' ?>">
                                 <i class="nav-icon fas fa-file"></i>
                                 <p>
                                     Pengaduan
@@ -87,7 +87,7 @@
                             </a>
                         </li>
                         <li class="nav-item">
-                            <a href="<?= base_url('ControllerTanggapan') ?>" class="nav-link <?= $menu == 'tanggapan' ? 'active' : '' ?>">
+                            <a href="<?= base_url('/tanggapan') ?>" class="nav-link <?= $menu == 'tanggapan' ? 'active' : '' ?>">
                                 <i class="nav-icon fas fa-comment"></i>
                                 <p>
                                     Tanggapan

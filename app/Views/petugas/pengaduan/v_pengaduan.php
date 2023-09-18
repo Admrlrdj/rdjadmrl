@@ -97,7 +97,7 @@
                         <span aria-hidden="true">&times;</span>
                     </button>
                 </div>
-                <?php echo form_open_multipart('ControllerTanggapan/InsertData/' . $value['id_pengaduan']) ?>
+                <?php echo form_open_multipart('/add-tanggapan/' . $value['id_pengaduan']) ?>
                 <div class="modal-body">
                     <div class="form-group">
                         <label for="">ID Pengaduan</label>

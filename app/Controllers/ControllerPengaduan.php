@@ -65,13 +65,13 @@ class ControllerPengaduan extends BaseController
                 ];
                 $this->ModelPengaduan->InsertData($data);
                 session()->setFlashdata('pesan', 'Upload Laporan Berhasil');
-                return redirect()->to(base_url('ControllerPengaduan'));
+                return redirect()->to(base_url('/pengaduan'));
             } else {
-                return redirect()->to(base_url('ControllerPengaduan'))->with('errors', ['Gambar tidak dapat diunggah.']);
+                return redirect()->to(base_url('/pengaduan'))->with('errors', ['Gambar tidak dapat diunggah.']);
             }
         } else {
             session()->setFlashdata('errors', \Config\Services::validation()->getErrors());
-            return redirect()->to(base_url('ControllerPengaduan'))->withInput();
+            return redirect()->to(base_url('/pengaduan'))->withInput();
         }
     }
 
@@ -101,7 +101,7 @@ class ControllerPengaduan extends BaseController
             ];
             $this->ModelPengaduan->UpdateData($data);
             session()->setFlashdata('pesan', 'Edit Laporan Berhasil');
-            return redirect()->to(base_url('ControllerPengaduan'));
+            return redirect()->to(base_url('/pengaduan'));
         } else {
             // Jika tidak ada file yang diunggah, pertahankan foto yang sudah ada
             $data = [
@@ -112,11 +112,9 @@ class ControllerPengaduan extends BaseController
             ];
             $this->ModelPengaduan->UpdateData($data);
             session()->setFlashdata('pesan', 'Edit Laporan Berhasil');
-            return redirect()->to(base_url('ControllerPengaduan'));
+            return redirect()->to(base_url('/pengaduan'));
         }
     }
-
-
 
     public function DeleteData($id_pengaduan)
     {
@@ -126,6 +124,6 @@ class ControllerPengaduan extends BaseController
 
         $this->ModelPengaduan->DeleteData($data);
         session()->setFlashdata('pesan', 'Data Berhasil Dihapus!!');
-        return redirect()->to('ControllerPengaduan');
+        return redirect()->to('/pengaduan');
     }
 }
