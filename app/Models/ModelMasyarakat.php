@@ -16,6 +16,11 @@ class ModelMasyarakat extends Model
         $this->db->table('masyarakat')->where('id', $data['id'])->update($data);
     }
 
+    public function DeleteData($data)
+    {
+        $this->db->table('masyarakat')->where('id', $data['id'])->delete($data);
+    }
+
     public function Save_Register($data)
     {
         $this->db->table('masyarakat')->insert($data);

@@ -21,17 +21,17 @@
                 echo session()->getFlashdata('pesan');
                 echo '</h5></div>';
             } ?>
-            <table id="example1" class="table table-bordered">
+            <table id="example1" class="table table-bordered table-responsive">
                 <thead>
                     <tr class="text-center">
-                        <th width="10px">No</th>
-                        <th width="50px">Tanggal Pengaduan</th>
-                        <th width="100px">NIK</th>
-                        <th width="100px">Nama</th>
-                        <th width="200px">Isi</th>
-                        <th width="150px">Foto</th>
-                        <th width="50px">Status</th>
-                        <th width="50px">Aksi</th>
+                        <th width="100px">No</th>
+                        <th width="200px">Tanggal Pengaduan</th>
+                        <th width="200px">NIK</th>
+                        <th width="150px">Nama</th>
+                        <th width="300px">Isi</th>
+                        <th width="300px">Foto</th>
+                        <th width="200px">Status</th>
+                        <th width="150px">Aksi</th>
                     </tr>
                 </thead>
                 <tbody>
@@ -49,7 +49,11 @@
                                 <td><?= $value['nik'] ?></td>
                                 <td><?= $value['nama'] ?></td>
                                 <td><?= $value['isi_laporan'] ?></td>
-                                <td><img src="<?= base_url('uploads/' . $value['foto']) ?>" class="img-fluid" alt="Foto Laporan" width="250" height="250"></td>
+                                <td>
+                                    <a data-fancybox="gallery" href="<?= base_url('uploads/' . $value['foto']) ?>">
+                                        <img src="<?= base_url('uploads/' . $value['foto']) ?>" class="img-fluid" alt="Foto Laporan" width="250" height="250">
+                                    </a>
+                                </td>
                                 <td><?php
                                     if ($value['status'] == 0) { ?>
                                         <span class="badge bg-secondary">Belum Diproses</span>
@@ -88,7 +92,7 @@
         <div class="modal-dialog">
             <div class="modal-content">
                 <div class="modal-header">
-                    <h4 class="modal-title">Tambah Tanggapann</h4>
+                    <h4 class="modal-title">Tambah Tanggapan</h4>
                     <button type="button" class="close" data-dismiss="modal" aria-label="Close">
                         <span aria-hidden="true">&times;</span>
                     </button>
@@ -118,7 +122,9 @@
                     <div class="form-group">
                         <label>Foto</label><br>
                         <input name="foto" class="form-control" readonly hidden>
-                        <img src="<?= base_url('uploads/' . $value['foto']) ?>" class="img-fluid" alt="Foto Pengaduan" width="250" height="250" />
+                        <a data-fancybox="gallery" href="<?= base_url('uploads/' . $value['foto']) ?>">
+                            <img src="<?= base_url('uploads/' . $value['foto']) ?>" class="img-fluid" alt="Foto Laporan" width="250" height="250">
+                        </a>
                     </div>
                     <div class="form-group">
                         <label for="">Tanggapan</label>

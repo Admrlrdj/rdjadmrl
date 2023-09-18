@@ -77,6 +77,24 @@
                                 </p>
                             </a>
                         </li>
+                        <?php if (session()->get('level') == 'admin') { ?>
+                            <li class="nav-item">
+                                <a href="<?= base_url('ControllerUser') ?>" class="nav-link <?= $menu == 'user' ? 'active' : '' ?>">
+                                    <i class="nav-icon fas fa-solid fa-user"></i>
+                                    <p>
+                                        User
+                                    </p>
+                                </a>
+                            </li>
+                            <li class="nav-item">
+                                <a href="<?= base_url('ControllerAdmin') ?>" class="nav-link <?= $menu == 'admin' ? 'active' : '' ?>">
+                                    <i class="nav-icon fas fa-solid fa-user"></i>
+                                    <p>
+                                        Admin
+                                    </p>
+                                </a>
+                            </li>
+                        <?php } ?>
                         <br>
                         <li class="nav-item">
                             <a href="<?= base_url('ControllerPengaduan/PetugasIndex') ?>" class="nav-link <?= $menu == 'pengaduan' ? 'active' : '' ?>">
