@@ -30,22 +30,22 @@ $routes->set404Override();
 // We get a performance increase by specifying the default
 // route since we don't have to scan directories.
 
-// //! Login
-// $routes->get('/', 'Home::index');
-// $routes->post('/ceklogin', 'Home::CekLogin');
+//! Login
+$routes->get('/', 'Home::index');
+$routes->post('/ceklogin', 'Home::CekLogin');
 
 
-// //! Registrasi
-// $routes->get('/register', 'Home::Register');
-// $routes->post('/saveregister', 'Home::SaveRegister');
+//! Registrasi
+$routes->get('/register', 'Home::Register');
+$routes->post('/saveregister', 'Home::SaveRegister');
 
 
-// //! Logout
-// $routes->get('/logout', 'Home::Logout');
+//! Logout
+$routes->get('/logout', 'Home::Logout');
 
 
 //! Profile Masyarakat
-$routes->get('/', 'ControllerProfile');
+$routes->get('/profile', 'ControllerProfile');
 $routes->post('/updateprofile/(:num)', 'ControllerProfile::UpdateProfile/$1');
 
 

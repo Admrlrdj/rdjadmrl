@@ -28,13 +28,13 @@
                         <th>Tanggal Pengaduan</th>
                         <th>Tanggal Tanggapan</th>
                         <th>NIK</th>
-                        <th>Nama</th>
+                        <th width="150px">Nama</th>
                         <th width="300px">Isi Laporan</th>
-                        <th>Foto</th>
-                        <th>Tanggapan</th>
+                        <th width="200px">Foto</th>
+                        <th width="250px">Tanggapan</th>
                         <th>Status</th>
                         <th width="100px">Petugas</th>
-                        <th width="150px">Aksi</th>
+                        <th width="100px">Aksi</th>
                     </tr>
                 </thead>
                 <tbody>
