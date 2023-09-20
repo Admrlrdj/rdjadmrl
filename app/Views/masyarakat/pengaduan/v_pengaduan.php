@@ -28,7 +28,7 @@
                 echo session()->getFlashdata('pesan');
                 echo '</h5></div>';
             } ?>
-            <table id="example1" class="table table-bordered table-responsive">
+            <table id="example1" class="table table-bordered table-striped">
                 <thead>
                     <tr class="text-center">
                         <th width="100px">No</th>
@@ -57,7 +57,7 @@
                                 <td><?= $value['nama'] ?></td>
                                 <td><?= $value['isi_laporan'] ?></td>
                                 <td>
-                                    <a data-fancybox="gallery" href="<?= base_url('uploads/' . $value['foto']) ?>">
+                                    <a data-fancybox="gallery" target="_blank" href="<?= base_url('uploads/' . $value['foto']) ?>">
                                         <img src="<?= base_url('uploads/' . $value['foto']) ?>" class="img-fluid" alt="Foto Laporan" width="250" height="250">
                                     </a>
                                 </td>

@@ -923,3 +923,561 @@ WARNING - 2023-09-19 03:01:03 --> [DEPRECATED] Creation of dynamic property App\
  3 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
  4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
 INFO - 2023-09-19 03:01:03 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2023-09-19 03:25:04 --> [DEPRECATED] Creation of dynamic property App\Controllers\Home::$ModelMasyarakat is deprecated in APPPATH\Controllers\Home.php on line 12.
+ 1 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Home->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(488): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+WARNING - 2023-09-19 03:25:04 --> [DEPRECATED] Creation of dynamic property App\Controllers\Home::$ModelPetugas is deprecated in APPPATH\Controllers\Home.php on line 13.
+ 1 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Home->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(488): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-09-19 03:25:04 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2023-09-19 03:25:04 --> [DEPRECATED] Creation of dynamic property App\Controllers\Home::$ModelMasyarakat is deprecated in APPPATH\Controllers\Home.php on line 12.
+ 1 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Home->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(488): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+WARNING - 2023-09-19 03:25:04 --> [DEPRECATED] Creation of dynamic property App\Controllers\Home::$ModelPetugas is deprecated in APPPATH\Controllers\Home.php on line 13.
+ 1 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Home->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(488): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-09-19 03:25:04 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2023-09-19 03:25:09 --> [DEPRECATED] Creation of dynamic property App\Controllers\Home::$ModelMasyarakat is deprecated in APPPATH\Controllers\Home.php on line 12.
+ 1 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Home->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(488): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+WARNING - 2023-09-19 03:25:09 --> [DEPRECATED] Creation of dynamic property App\Controllers\Home::$ModelPetugas is deprecated in APPPATH\Controllers\Home.php on line 13.
+ 1 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Home->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(488): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-09-19 03:25:09 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2023-09-19 03:25:09 --> [DEPRECATED] Creation of dynamic property App\Controllers\ControllerProfile::$ModelMasyarakat is deprecated in APPPATH\Controllers\ControllerProfile.php on line 13.
+ 1 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\ControllerProfile->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(488): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+WARNING - 2023-09-19 03:25:09 --> [DEPRECATED] Creation of dynamic property App\Controllers\ControllerProfile::$ModelPetugas is deprecated in APPPATH\Controllers\ControllerProfile.php on line 14.
+ 1 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\ControllerProfile->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(488): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-09-19 03:25:09 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2023-09-19 03:25:14 --> [DEPRECATED] Creation of dynamic property App\Controllers\Home::$ModelMasyarakat is deprecated in APPPATH\Controllers\Home.php on line 12.
+ 1 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Home->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(488): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+WARNING - 2023-09-19 03:25:14 --> [DEPRECATED] Creation of dynamic property App\Controllers\Home::$ModelPetugas is deprecated in APPPATH\Controllers\Home.php on line 13.
+ 1 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Home->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(488): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-09-19 03:25:14 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2023-09-19 03:25:16 --> [DEPRECATED] Creation of dynamic property App\Controllers\Home::$ModelMasyarakat is deprecated in APPPATH\Controllers\Home.php on line 12.
+ 1 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Home->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(488): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+WARNING - 2023-09-19 03:25:16 --> [DEPRECATED] Creation of dynamic property App\Controllers\Home::$ModelPetugas is deprecated in APPPATH\Controllers\Home.php on line 13.
+ 1 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Home->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(488): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-09-19 03:25:16 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2023-09-19 03:25:17 --> [DEPRECATED] Creation of dynamic property App\Controllers\Home::$ModelMasyarakat is deprecated in APPPATH\Controllers\Home.php on line 12.
+ 1 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Home->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(488): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+WARNING - 2023-09-19 03:25:17 --> [DEPRECATED] Creation of dynamic property App\Controllers\Home::$ModelPetugas is deprecated in APPPATH\Controllers\Home.php on line 13.
+ 1 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Home->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(488): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-09-19 03:25:17 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2023-09-19 03:25:21 --> [DEPRECATED] Creation of dynamic property App\Controllers\Home::$ModelMasyarakat is deprecated in APPPATH\Controllers\Home.php on line 12.
+ 1 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Home->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(488): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+WARNING - 2023-09-19 03:25:21 --> [DEPRECATED] Creation of dynamic property App\Controllers\Home::$ModelPetugas is deprecated in APPPATH\Controllers\Home.php on line 13.
+ 1 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Home->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(488): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-09-19 03:25:21 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2023-09-19 03:25:21 --> [DEPRECATED] Creation of dynamic property App\Controllers\ControllerProfile::$ModelMasyarakat is deprecated in APPPATH\Controllers\ControllerProfile.php on line 13.
+ 1 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\ControllerProfile->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(488): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+WARNING - 2023-09-19 03:25:21 --> [DEPRECATED] Creation of dynamic property App\Controllers\ControllerProfile::$ModelPetugas is deprecated in APPPATH\Controllers\ControllerProfile.php on line 14.
+ 1 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\ControllerProfile->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(488): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-09-19 03:25:21 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2023-09-19 07:32:17 --> [DEPRECATED] Creation of dynamic property App\Controllers\ControllerPengaduan::$ModelPengaduan is deprecated in APPPATH\Controllers\ControllerPengaduan.php on line 13.
+ 1 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\ControllerPengaduan->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(488): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+WARNING - 2023-09-19 07:32:17 --> [DEPRECATED] Creation of dynamic property App\Controllers\ControllerPengaduan::$ModelMasyarakat is deprecated in APPPATH\Controllers\ControllerPengaduan.php on line 14.
+ 1 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\ControllerPengaduan->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(488): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-09-19 07:32:17 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2023-09-19 07:32:19 --> [DEPRECATED] Creation of dynamic property App\Controllers\ControllerTanggapan::$ModelPengaduan is deprecated in APPPATH\Controllers\ControllerTanggapan.php on line 15.
+ 1 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\ControllerTanggapan->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(488): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+WARNING - 2023-09-19 07:32:19 --> [DEPRECATED] Creation of dynamic property App\Controllers\ControllerTanggapan::$ModelMasyarakat is deprecated in APPPATH\Controllers\ControllerTanggapan.php on line 16.
+ 1 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\ControllerTanggapan->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(488): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+WARNING - 2023-09-19 07:32:19 --> [DEPRECATED] Creation of dynamic property App\Controllers\ControllerTanggapan::$ModelTanggapan is deprecated in APPPATH\Controllers\ControllerTanggapan.php on line 17.
+ 1 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\ControllerTanggapan->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(488): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+WARNING - 2023-09-19 07:32:19 --> [DEPRECATED] Creation of dynamic property App\Controllers\ControllerTanggapan::$ModelPetugas is deprecated in APPPATH\Controllers\ControllerTanggapan.php on line 18.
+ 1 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\ControllerTanggapan->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(488): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-09-19 07:32:19 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2023-09-19 07:32:20 --> [DEPRECATED] Creation of dynamic property App\Controllers\ControllerPengaduan::$ModelPengaduan is deprecated in APPPATH\Controllers\ControllerPengaduan.php on line 13.
+ 1 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\ControllerPengaduan->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(488): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+WARNING - 2023-09-19 07:32:20 --> [DEPRECATED] Creation of dynamic property App\Controllers\ControllerPengaduan::$ModelMasyarakat is deprecated in APPPATH\Controllers\ControllerPengaduan.php on line 14.
+ 1 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\ControllerPengaduan->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(488): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-09-19 07:32:20 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2023-09-19 07:32:25 --> [DEPRECATED] Creation of dynamic property App\Controllers\Home::$ModelMasyarakat is deprecated in APPPATH\Controllers\Home.php on line 12.
+ 1 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Home->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(488): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+WARNING - 2023-09-19 07:32:25 --> [DEPRECATED] Creation of dynamic property App\Controllers\Home::$ModelPetugas is deprecated in APPPATH\Controllers\Home.php on line 13.
+ 1 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Home->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(488): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-09-19 07:32:25 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2023-09-19 07:32:25 --> [DEPRECATED] Creation of dynamic property App\Controllers\Home::$ModelMasyarakat is deprecated in APPPATH\Controllers\Home.php on line 12.
+ 1 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Home->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(488): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+WARNING - 2023-09-19 07:32:25 --> [DEPRECATED] Creation of dynamic property App\Controllers\Home::$ModelPetugas is deprecated in APPPATH\Controllers\Home.php on line 13.
+ 1 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Home->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(488): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-09-19 07:32:25 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2023-09-19 07:32:27 --> [DEPRECATED] Creation of dynamic property App\Controllers\Home::$ModelMasyarakat is deprecated in APPPATH\Controllers\Home.php on line 12.
+ 1 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Home->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(488): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+WARNING - 2023-09-19 07:32:27 --> [DEPRECATED] Creation of dynamic property App\Controllers\Home::$ModelPetugas is deprecated in APPPATH\Controllers\Home.php on line 13.
+ 1 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Home->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(488): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-09-19 07:32:27 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2023-09-19 07:32:27 --> [DEPRECATED] Creation of dynamic property App\Controllers\ControllerProfile::$ModelMasyarakat is deprecated in APPPATH\Controllers\ControllerProfile.php on line 13.
+ 1 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\ControllerProfile->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(488): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+WARNING - 2023-09-19 07:32:27 --> [DEPRECATED] Creation of dynamic property App\Controllers\ControllerProfile::$ModelPetugas is deprecated in APPPATH\Controllers\ControllerProfile.php on line 14.
+ 1 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\ControllerProfile->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(488): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-09-19 07:32:27 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2023-09-19 08:53:00 --> [DEPRECATED] Creation of dynamic property App\Controllers\ControllerPengaduan::$ModelPengaduan is deprecated in APPPATH\Controllers\ControllerPengaduan.php on line 13.
+ 1 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\ControllerPengaduan->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(488): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+WARNING - 2023-09-19 08:53:00 --> [DEPRECATED] Creation of dynamic property App\Controllers\ControllerPengaduan::$ModelMasyarakat is deprecated in APPPATH\Controllers\ControllerPengaduan.php on line 14.
+ 1 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\ControllerPengaduan->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(488): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-09-19 08:53:00 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2023-09-19 08:53:01 --> [DEPRECATED] Creation of dynamic property App\Controllers\ControllerTanggapan::$ModelPengaduan is deprecated in APPPATH\Controllers\ControllerTanggapan.php on line 15.
+ 1 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\ControllerTanggapan->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(488): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+WARNING - 2023-09-19 08:53:01 --> [DEPRECATED] Creation of dynamic property App\Controllers\ControllerTanggapan::$ModelMasyarakat is deprecated in APPPATH\Controllers\ControllerTanggapan.php on line 16.
+ 1 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\ControllerTanggapan->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(488): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+WARNING - 2023-09-19 08:53:01 --> [DEPRECATED] Creation of dynamic property App\Controllers\ControllerTanggapan::$ModelTanggapan is deprecated in APPPATH\Controllers\ControllerTanggapan.php on line 17.
+ 1 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\ControllerTanggapan->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(488): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+WARNING - 2023-09-19 08:53:01 --> [DEPRECATED] Creation of dynamic property App\Controllers\ControllerTanggapan::$ModelPetugas is deprecated in APPPATH\Controllers\ControllerTanggapan.php on line 18.
+ 1 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\ControllerTanggapan->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(488): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-09-19 08:53:01 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2023-09-19 08:53:20 --> [DEPRECATED] Creation of dynamic property App\Controllers\ControllerTanggapan::$ModelPengaduan is deprecated in APPPATH\Controllers\ControllerTanggapan.php on line 15.
+ 1 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\ControllerTanggapan->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(488): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+WARNING - 2023-09-19 08:53:20 --> [DEPRECATED] Creation of dynamic property App\Controllers\ControllerTanggapan::$ModelMasyarakat is deprecated in APPPATH\Controllers\ControllerTanggapan.php on line 16.
+ 1 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\ControllerTanggapan->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(488): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+WARNING - 2023-09-19 08:53:20 --> [DEPRECATED] Creation of dynamic property App\Controllers\ControllerTanggapan::$ModelTanggapan is deprecated in APPPATH\Controllers\ControllerTanggapan.php on line 17.
+ 1 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\ControllerTanggapan->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(488): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+WARNING - 2023-09-19 08:53:20 --> [DEPRECATED] Creation of dynamic property App\Controllers\ControllerTanggapan::$ModelPetugas is deprecated in APPPATH\Controllers\ControllerTanggapan.php on line 18.
+ 1 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\ControllerTanggapan->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(488): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-09-19 08:53:20 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+ERROR - 2023-09-19 08:53:20 --> Error connecting to the database: Error: Class "SQLite3" not found in C:\xampp\htdocs\rdjadmrl\system\Database\SQLite3\Connection.php:89
+Stack trace:
+#0 C:\xampp\htdocs\rdjadmrl\system\Database\BaseConnection.php(391): CodeIgniter\Database\SQLite3\Connection->connect(false)
+#1 C:\xampp\htdocs\rdjadmrl\system\Database\SQLite3\Connection.php(59): CodeIgniter\Database\BaseConnection->initialize()
+#2 C:\xampp\htdocs\rdjadmrl\system\Database\BaseConnection.php(574): CodeIgniter\Database\SQLite3\Connection->initialize()
+#3 C:\xampp\htdocs\rdjadmrl\system\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT `db_tang...', Array, false)
+#4 C:\xampp\htdocs\rdjadmrl\app\Models\ModelTanggapan.php(17): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\rdjadmrl\app\Controllers\ControllerTanggapan.php(28): App\Models\ModelTanggapan->AllDataMasyarakat(NULL)
+#6 C:\xampp\htdocs\rdjadmrl\system\CodeIgniter.php(932): App\Controllers\ControllerTanggapan->index()
+#7 C:\xampp\htdocs\rdjadmrl\system\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ControllerTanggapan))
+#8 C:\xampp\htdocs\rdjadmrl\system\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\rdjadmrl\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2023-09-19 08:53:20 --> Unable to connect to the database.
+Main connection [SQLite3]: Class "SQLite3" not found
+in SYSTEMPATH\Database\BaseConnection.php on line 427.
+ 1 SYSTEMPATH\Database\SQLite3\Connection.php(59): CodeIgniter\Database\BaseConnection->initialize()
+ 2 SYSTEMPATH\Database\BaseConnection.php(574): CodeIgniter\Database\SQLite3\Connection->initialize()
+ 3 SYSTEMPATH\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT `db_tanggapan`.`id_tanggapan`, `db_pengaduan`.`id_pengaduan`, `db_tanggapan`.`id_pengaduan`, `db_pengaduan`.`tgl_pengaduan`, `db_tanggapan`.`tgl_tanggapan`, `db_pengaduan`.`nik`, `db_masyarakat`.`nama`, `db_pengaduan`.`foto`, `db_pengaduan`.`isi_laporan`, `db_tanggapan`.`tanggapan`, `db_tanggapan`.`id_petugas`, `db_petugas`.`nama_petugas`, `db_pengaduan`.`status`, `db_tanggapan`.`status`
+FROM `db_tanggapan`
+LEFT JOIN `db_pengaduan` ON `db_pengaduan`.`id_pengaduan` = `db_tanggapan`.`id_pengaduan`
+LEFT JOIN `db_petugas` ON `db_petugas`.`id_petugas` = `db_tanggapan`.`id_petugas`
+LEFT JOIN `db_masyarakat` ON `db_masyarakat`.`nik` = `db_pengaduan`.`nik`
+WHERE `db_pengaduan`.`nik` IS NULL', [], false)
+ 4 APPPATH\Models\ModelTanggapan.php(17): CodeIgniter\Database\BaseBuilder->get()
+ 5 APPPATH\Controllers\ControllerTanggapan.php(28): App\Models\ModelTanggapan->AllDataMasyarakat(null)
+ 6 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\ControllerTanggapan->index()
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ControllerTanggapan))
+ 8 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+WARNING - 2023-09-19 08:53:48 --> [DEPRECATED] Creation of dynamic property App\Controllers\ControllerTanggapan::$ModelPengaduan is deprecated in APPPATH\Controllers\ControllerTanggapan.php on line 15.
+ 1 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\ControllerTanggapan->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(488): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+WARNING - 2023-09-19 08:53:48 --> [DEPRECATED] Creation of dynamic property App\Controllers\ControllerTanggapan::$ModelMasyarakat is deprecated in APPPATH\Controllers\ControllerTanggapan.php on line 16.
+ 1 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\ControllerTanggapan->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(488): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+WARNING - 2023-09-19 08:53:48 --> [DEPRECATED] Creation of dynamic property App\Controllers\ControllerTanggapan::$ModelTanggapan is deprecated in APPPATH\Controllers\ControllerTanggapan.php on line 17.
+ 1 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\ControllerTanggapan->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(488): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+WARNING - 2023-09-19 08:53:48 --> [DEPRECATED] Creation of dynamic property App\Controllers\ControllerTanggapan::$ModelPetugas is deprecated in APPPATH\Controllers\ControllerTanggapan.php on line 18.
+ 1 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\ControllerTanggapan->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(488): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-09-19 08:53:48 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2023-09-19 09:24:41 --> [DEPRECATED] Creation of dynamic property App\Controllers\ControllerTanggapan::$ModelPengaduan is deprecated in APPPATH\Controllers\ControllerTanggapan.php on line 15.
+ 1 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\ControllerTanggapan->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(488): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+WARNING - 2023-09-19 09:24:41 --> [DEPRECATED] Creation of dynamic property App\Controllers\ControllerTanggapan::$ModelMasyarakat is deprecated in APPPATH\Controllers\ControllerTanggapan.php on line 16.
+ 1 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\ControllerTanggapan->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(488): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+WARNING - 2023-09-19 09:24:41 --> [DEPRECATED] Creation of dynamic property App\Controllers\ControllerTanggapan::$ModelTanggapan is deprecated in APPPATH\Controllers\ControllerTanggapan.php on line 17.
+ 1 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\ControllerTanggapan->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(488): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+WARNING - 2023-09-19 09:24:41 --> [DEPRECATED] Creation of dynamic property App\Controllers\ControllerTanggapan::$ModelPetugas is deprecated in APPPATH\Controllers\ControllerTanggapan.php on line 18.
+ 1 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\ControllerTanggapan->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(488): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-09-19 09:24:41 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2023-09-19 09:24:42 --> [DEPRECATED] Creation of dynamic property App\Controllers\ControllerPengaduan::$ModelPengaduan is deprecated in APPPATH\Controllers\ControllerPengaduan.php on line 13.
+ 1 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\ControllerPengaduan->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(488): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+WARNING - 2023-09-19 09:24:42 --> [DEPRECATED] Creation of dynamic property App\Controllers\ControllerPengaduan::$ModelMasyarakat is deprecated in APPPATH\Controllers\ControllerPengaduan.php on line 14.
+ 1 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\ControllerPengaduan->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(488): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-09-19 09:24:42 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2023-09-19 09:24:42 --> [DEPRECATED] Creation of dynamic property App\Controllers\ControllerTanggapan::$ModelPengaduan is deprecated in APPPATH\Controllers\ControllerTanggapan.php on line 15.
+ 1 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\ControllerTanggapan->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(488): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+WARNING - 2023-09-19 09:24:42 --> [DEPRECATED] Creation of dynamic property App\Controllers\ControllerTanggapan::$ModelMasyarakat is deprecated in APPPATH\Controllers\ControllerTanggapan.php on line 16.
+ 1 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\ControllerTanggapan->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(488): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+WARNING - 2023-09-19 09:24:42 --> [DEPRECATED] Creation of dynamic property App\Controllers\ControllerTanggapan::$ModelTanggapan is deprecated in APPPATH\Controllers\ControllerTanggapan.php on line 17.
+ 1 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\ControllerTanggapan->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(488): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+WARNING - 2023-09-19 09:24:42 --> [DEPRECATED] Creation of dynamic property App\Controllers\ControllerTanggapan::$ModelPetugas is deprecated in APPPATH\Controllers\ControllerTanggapan.php on line 18.
+ 1 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\ControllerTanggapan->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(488): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-09-19 09:24:42 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2023-09-19 09:24:45 --> [DEPRECATED] Creation of dynamic property App\Controllers\ControllerPengaduan::$ModelPengaduan is deprecated in APPPATH\Controllers\ControllerPengaduan.php on line 13.
+ 1 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\ControllerPengaduan->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(488): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+WARNING - 2023-09-19 09:24:45 --> [DEPRECATED] Creation of dynamic property App\Controllers\ControllerPengaduan::$ModelMasyarakat is deprecated in APPPATH\Controllers\ControllerPengaduan.php on line 14.
+ 1 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\ControllerPengaduan->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(488): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-09-19 09:24:45 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2023-09-19 09:24:50 --> [DEPRECATED] Creation of dynamic property App\Controllers\ControllerPengaduan::$ModelPengaduan is deprecated in APPPATH\Controllers\ControllerPengaduan.php on line 13.
+ 1 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\ControllerPengaduan->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(488): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+WARNING - 2023-09-19 09:24:50 --> [DEPRECATED] Creation of dynamic property App\Controllers\ControllerPengaduan::$ModelMasyarakat is deprecated in APPPATH\Controllers\ControllerPengaduan.php on line 14.
+ 1 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\ControllerPengaduan->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(488): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-09-19 09:24:50 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2023-09-19 09:24:50 --> [DEPRECATED] Creation of dynamic property App\Controllers\ControllerPengaduan::$ModelPengaduan is deprecated in APPPATH\Controllers\ControllerPengaduan.php on line 13.
+ 1 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\ControllerPengaduan->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(488): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+WARNING - 2023-09-19 09:24:50 --> [DEPRECATED] Creation of dynamic property App\Controllers\ControllerPengaduan::$ModelMasyarakat is deprecated in APPPATH\Controllers\ControllerPengaduan.php on line 14.
+ 1 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\ControllerPengaduan->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(488): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-09-19 09:24:50 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2023-09-19 09:24:56 --> [DEPRECATED] Creation of dynamic property App\Controllers\ControllerPengaduan::$ModelPengaduan is deprecated in APPPATH\Controllers\ControllerPengaduan.php on line 13.
+ 1 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\ControllerPengaduan->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(488): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+WARNING - 2023-09-19 09:24:56 --> [DEPRECATED] Creation of dynamic property App\Controllers\ControllerPengaduan::$ModelMasyarakat is deprecated in APPPATH\Controllers\ControllerPengaduan.php on line 14.
+ 1 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\ControllerPengaduan->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(488): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-09-19 09:24:56 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2023-09-19 09:24:56 --> [DEPRECATED] Creation of dynamic property App\Controllers\ControllerPengaduan::$ModelPengaduan is deprecated in APPPATH\Controllers\ControllerPengaduan.php on line 13.
+ 1 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\ControllerPengaduan->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(488): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+WARNING - 2023-09-19 09:24:56 --> [DEPRECATED] Creation of dynamic property App\Controllers\ControllerPengaduan::$ModelMasyarakat is deprecated in APPPATH\Controllers\ControllerPengaduan.php on line 14.
+ 1 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\ControllerPengaduan->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(488): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-09-19 09:24:56 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2023-09-19 09:25:01 --> [DEPRECATED] Creation of dynamic property App\Controllers\Home::$ModelMasyarakat is deprecated in APPPATH\Controllers\Home.php on line 12.
+ 1 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Home->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(488): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+WARNING - 2023-09-19 09:25:01 --> [DEPRECATED] Creation of dynamic property App\Controllers\Home::$ModelPetugas is deprecated in APPPATH\Controllers\Home.php on line 13.
+ 1 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Home->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(488): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-09-19 09:25:01 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2023-09-19 09:25:01 --> [DEPRECATED] Creation of dynamic property App\Controllers\Home::$ModelMasyarakat is deprecated in APPPATH\Controllers\Home.php on line 12.
+ 1 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Home->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(488): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+WARNING - 2023-09-19 09:25:01 --> [DEPRECATED] Creation of dynamic property App\Controllers\Home::$ModelPetugas is deprecated in APPPATH\Controllers\Home.php on line 13.
+ 1 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Home->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(488): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-09-19 09:25:01 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2023-09-19 09:25:04 --> [DEPRECATED] Creation of dynamic property App\Controllers\Home::$ModelMasyarakat is deprecated in APPPATH\Controllers\Home.php on line 12.
+ 1 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Home->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(488): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+WARNING - 2023-09-19 09:25:04 --> [DEPRECATED] Creation of dynamic property App\Controllers\Home::$ModelPetugas is deprecated in APPPATH\Controllers\Home.php on line 13.
+ 1 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Home->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(488): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-09-19 09:25:04 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2023-09-19 09:25:04 --> [DEPRECATED] Creation of dynamic property App\Controllers\ControllerProfile::$ModelMasyarakat is deprecated in APPPATH\Controllers\ControllerProfile.php on line 13.
+ 1 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\ControllerProfile->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(488): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+WARNING - 2023-09-19 09:25:04 --> [DEPRECATED] Creation of dynamic property App\Controllers\ControllerProfile::$ModelPetugas is deprecated in APPPATH\Controllers\ControllerProfile.php on line 14.
+ 1 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\ControllerProfile->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(488): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-09-19 09:25:04 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2023-09-19 09:25:06 --> [DEPRECATED] Creation of dynamic property App\Controllers\ControllerPengaduan::$ModelPengaduan is deprecated in APPPATH\Controllers\ControllerPengaduan.php on line 13.
+ 1 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\ControllerPengaduan->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(488): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+WARNING - 2023-09-19 09:25:06 --> [DEPRECATED] Creation of dynamic property App\Controllers\ControllerPengaduan::$ModelMasyarakat is deprecated in APPPATH\Controllers\ControllerPengaduan.php on line 14.
+ 1 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\ControllerPengaduan->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(488): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-09-19 09:25:06 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2023-09-19 09:25:10 --> [DEPRECATED] Creation of dynamic property App\Controllers\ControllerTanggapan::$ModelPengaduan is deprecated in APPPATH\Controllers\ControllerTanggapan.php on line 15.
+ 1 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\ControllerTanggapan->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(488): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+WARNING - 2023-09-19 09:25:10 --> [DEPRECATED] Creation of dynamic property App\Controllers\ControllerTanggapan::$ModelMasyarakat is deprecated in APPPATH\Controllers\ControllerTanggapan.php on line 16.
+ 1 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\ControllerTanggapan->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(488): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+WARNING - 2023-09-19 09:25:10 --> [DEPRECATED] Creation of dynamic property App\Controllers\ControllerTanggapan::$ModelTanggapan is deprecated in APPPATH\Controllers\ControllerTanggapan.php on line 17.
+ 1 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\ControllerTanggapan->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(488): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+WARNING - 2023-09-19 09:25:10 --> [DEPRECATED] Creation of dynamic property App\Controllers\ControllerTanggapan::$ModelPetugas is deprecated in APPPATH\Controllers\ControllerTanggapan.php on line 18.
+ 1 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\ControllerTanggapan->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(488): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-09-19 09:25:10 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2023-09-19 09:25:10 --> [DEPRECATED] Creation of dynamic property App\Controllers\ControllerTanggapan::$ModelPengaduan is deprecated in APPPATH\Controllers\ControllerTanggapan.php on line 15.
+ 1 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\ControllerTanggapan->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(488): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+WARNING - 2023-09-19 09:25:10 --> [DEPRECATED] Creation of dynamic property App\Controllers\ControllerTanggapan::$ModelMasyarakat is deprecated in APPPATH\Controllers\ControllerTanggapan.php on line 16.
+ 1 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\ControllerTanggapan->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(488): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+WARNING - 2023-09-19 09:25:10 --> [DEPRECATED] Creation of dynamic property App\Controllers\ControllerTanggapan::$ModelTanggapan is deprecated in APPPATH\Controllers\ControllerTanggapan.php on line 17.
+ 1 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\ControllerTanggapan->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(488): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+WARNING - 2023-09-19 09:25:10 --> [DEPRECATED] Creation of dynamic property App\Controllers\ControllerTanggapan::$ModelPetugas is deprecated in APPPATH\Controllers\ControllerTanggapan.php on line 18.
+ 1 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\ControllerTanggapan->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(488): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-09-19 09:25:10 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2023-09-19 09:25:15 --> [DEPRECATED] Creation of dynamic property App\Controllers\ControllerTanggapan::$ModelPengaduan is deprecated in APPPATH\Controllers\ControllerTanggapan.php on line 15.
+ 1 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\ControllerTanggapan->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(488): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+WARNING - 2023-09-19 09:25:15 --> [DEPRECATED] Creation of dynamic property App\Controllers\ControllerTanggapan::$ModelMasyarakat is deprecated in APPPATH\Controllers\ControllerTanggapan.php on line 16.
+ 1 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\ControllerTanggapan->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(488): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+WARNING - 2023-09-19 09:25:15 --> [DEPRECATED] Creation of dynamic property App\Controllers\ControllerTanggapan::$ModelTanggapan is deprecated in APPPATH\Controllers\ControllerTanggapan.php on line 17.
+ 1 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\ControllerTanggapan->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(488): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+WARNING - 2023-09-19 09:25:15 --> [DEPRECATED] Creation of dynamic property App\Controllers\ControllerTanggapan::$ModelPetugas is deprecated in APPPATH\Controllers\ControllerTanggapan.php on line 18.
+ 1 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\ControllerTanggapan->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(488): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-09-19 09:25:16 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2023-09-19 09:25:16 --> [DEPRECATED] Creation of dynamic property App\Controllers\ControllerTanggapan::$ModelPengaduan is deprecated in APPPATH\Controllers\ControllerTanggapan.php on line 15.
+ 1 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\ControllerTanggapan->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(488): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+WARNING - 2023-09-19 09:25:16 --> [DEPRECATED] Creation of dynamic property App\Controllers\ControllerTanggapan::$ModelMasyarakat is deprecated in APPPATH\Controllers\ControllerTanggapan.php on line 16.
+ 1 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\ControllerTanggapan->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(488): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+WARNING - 2023-09-19 09:25:16 --> [DEPRECATED] Creation of dynamic property App\Controllers\ControllerTanggapan::$ModelTanggapan is deprecated in APPPATH\Controllers\ControllerTanggapan.php on line 17.
+ 1 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\ControllerTanggapan->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(488): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+WARNING - 2023-09-19 09:25:16 --> [DEPRECATED] Creation of dynamic property App\Controllers\ControllerTanggapan::$ModelPetugas is deprecated in APPPATH\Controllers\ControllerTanggapan.php on line 18.
+ 1 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\ControllerTanggapan->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(488): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-09-19 09:25:16 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2023-09-19 09:27:57 --> [DEPRECATED] Creation of dynamic property App\Controllers\ControllerTanggapan::$ModelPengaduan is deprecated in APPPATH\Controllers\ControllerTanggapan.php on line 15.
+ 1 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\ControllerTanggapan->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(488): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+WARNING - 2023-09-19 09:27:57 --> [DEPRECATED] Creation of dynamic property App\Controllers\ControllerTanggapan::$ModelMasyarakat is deprecated in APPPATH\Controllers\ControllerTanggapan.php on line 16.
+ 1 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\ControllerTanggapan->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(488): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+WARNING - 2023-09-19 09:27:57 --> [DEPRECATED] Creation of dynamic property App\Controllers\ControllerTanggapan::$ModelTanggapan is deprecated in APPPATH\Controllers\ControllerTanggapan.php on line 17.
+ 1 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\ControllerTanggapan->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(488): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+WARNING - 2023-09-19 09:27:57 --> [DEPRECATED] Creation of dynamic property App\Controllers\ControllerTanggapan::$ModelPetugas is deprecated in APPPATH\Controllers\ControllerTanggapan.php on line 18.
+ 1 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\ControllerTanggapan->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(488): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-09-19 09:27:57 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.

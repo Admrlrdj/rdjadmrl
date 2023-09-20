@@ -21,7 +21,7 @@
                 echo session()->getFlashdata('pesan');
                 echo '</h5></div>';
             } ?>
-            <table id="example1" class="table table-bordered table-responsive">
+            <table id="example1" class="table table-bordered table-striped">
                 <thead>
                     <tr class="text-center">
                         <th width="100px">No</th>
