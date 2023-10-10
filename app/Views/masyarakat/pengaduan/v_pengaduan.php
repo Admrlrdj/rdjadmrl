@@ -6,6 +6,9 @@
             </div>
             <!-- /.card-tools -->
         </div>
+        <div class="card-tools">
+            <button type="button" class="btn btn-tool" data-toggle="modal" data-target="#add-pengaduan"><i class="fas fa-plus"></i> Tambah Pengaduan</button>
+        </div>
         <!-- /.card-header -->
         <div class="card-body">
             <?php $errors = session()->getFlashdata('errors');

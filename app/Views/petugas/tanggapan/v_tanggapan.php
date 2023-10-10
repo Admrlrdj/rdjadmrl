@@ -1,6 +1,9 @@
 <div class="col-md-12">
     <div class="card card-primary">
         <div class="card-body">
+            <!-- <div class="card-tools">
+                <button type="button" class="btn btn-info btn-sm btn-flat" id="ct"><i class="fas fa-print"></i> PRINT</button><br><br>
+            </div> -->
             <?php $errors = session()->getFlashdata('errors');
             if (!empty($errors)) { ?>
                 <div class="alert alert-danger alert-dismissible mb-4">
@@ -103,7 +106,9 @@
                                     <?php } ?>
                                 </td>
                                 <td><?= $value['nama_petugas'] ?></td>
-                                <td></td>
+                                <td>
+                                    <a href="cetak-tanggapan/<?= $value['id_tanggapan'] ?>" target="_blank" class="btn btn-mini btn-success"><i class='fas fa-print'></i></a>
+                                </td>
                             </tr>
                         <?php }
                     }
@@ -147,3 +152,14 @@
     </div>
     <!-- /.modal -->
 <?php } ?>
+
+<script type="text/javascript">
+    document.getElementById('ct').onclick = function() {
+        $("#remove").remove();
+        window.print();
+    }
+    $(document).ready(function() {
+        $("remove").remove();
+
+    });
+</script>

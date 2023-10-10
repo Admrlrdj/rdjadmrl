@@ -29,9 +29,11 @@ $routes->set404Override();
 
 // We get a performance increase by specifying the default
 // route since we don't have to scan directories.
+//! Main
+$routes->get('/', 'Home::index');
 
 //! Login
-$routes->get('/', 'Home::index');
+$routes->get('/login', 'Home::Login');
 $routes->post('/ceklogin', 'Home::CekLogin');
 
 
@@ -74,6 +76,10 @@ $routes->get('/delete-tanggapan/(:num)', 'ControllerTanggapan::DeleteData/$1');
 //! Tanggapan Admin
 $routes->get('/tanggapan-admin', 'ControllerTanggapan::PetugasIndex');
 $routes->get('/apply-tanggapan/(:num)', 'ControllerTanggapan::ApplyData/$1');
+
+
+//! Cetak Transaksi
+$routes->get('/cetak-tanggapan/(:num)', 'ControllerTanggapan::GenerateLaporan/$1');
 
 
 //! User

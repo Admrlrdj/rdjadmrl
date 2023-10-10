@@ -98,4 +98,13 @@ class ControllerTanggapan extends BaseController
         session()->setFlashdata('pesan', 'Data Berhasil Dihapus!!');
         return redirect()->to('/tanggapan');
     }
+
+    public function GenerateLaporan($id_tanggapan)
+    {
+        $data = [
+            'id_tanggapan' => $id_tanggapan,
+            'tanggapanPetugas' => $this->ModelTanggapan->GenerateLaporan($id_tanggapan),
+        ];
+        return view('petugas/tanggapan/v_cetak', $data);
+    }
 }
