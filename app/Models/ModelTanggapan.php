@@ -46,9 +46,9 @@ class ModelTanggapan extends Model
     {
         $db = $this->db->table('tanggapan')
             ->select('tanggapan.id_tanggapan, pengaduan.id_pengaduan, pengaduan.tgl_pengaduan, tanggapan.tgl_tanggapan, pengaduan.nik, masyarakat.nama, pengaduan.foto, pengaduan.isi_laporan, tanggapan.tanggapan, tanggapan.id_petugas, petugas.nama_petugas, pengaduan.status, tanggapan.status')
-            ->join('pengaduan', 'pengaduan.id_pengaduan = tanggapan.id_pengaduan', 'left')
-            ->join('petugas', 'petugas.id_petugas = tanggapan.id_petugas', 'left')
-            ->join('masyarakat', 'masyarakat.nik = pengaduan.nik', 'left')
+            ->join('pengaduan', 'pengaduan.id_pengaduan = tanggapan.id_pengaduan')
+            ->join('petugas', 'petugas.id_petugas = tanggapan.id_petugas')
+            ->join('masyarakat', 'masyarakat.nik = pengaduan.nik')
             ->where(['tanggapan.id_tanggapan' => $id_tanggapan]);
         return $db->get()->getResultArray();
     }

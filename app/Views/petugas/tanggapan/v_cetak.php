@@ -127,8 +127,9 @@
                 box-shadow: 0;
             }
 
+            title,
             #ct {
-                display: none;
+                display: none !important;
             }
         }
     </style>
@@ -227,7 +228,7 @@
                 <tbody>
                     <tr>
                         <td>
-                            <center><?= $value['id_tanggapan']; ?>. </center>
+                            <center><?= $value['id_tanggapan']; ?> </center>
                         </td>
                         <td><?= $value['isi_laporan']; ?></td>
                         <td class="right">
@@ -235,7 +236,7 @@
                                     <img src="<?= base_url('uploads/' . $value['foto']) ?>" class="img-fluid" alt="Foto Laporan" width="250" height="250">
                                 </a></center>
                         </td>
-                        <td class="right"><?= $value['tanggapan']; ?>,-</td>
+                        <td class="right"><?= $value['tanggapan']; ?></td>
                         <td class="right">
                             <?php
                             if ($value['status'] == 0) { ?>
