@@ -152,14 +152,3 @@
     </div>
     <!-- /.modal -->
 <?php } ?>
-
-<script type="text/javascript">
-    document.getElementById('ct').onclick = function() {
-        $("#remove").remove();
-        window.print();
-    }
-    $(document).ready(function() {
-        $("remove").remove();
-
-    });
-</script>
