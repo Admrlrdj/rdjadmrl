@@ -30,24 +30,22 @@ class Home extends BaseController
 
     public function CekLogin()
     {
-        if (
-            $this->validate([
-                'username' => [
-                    'label' => 'Username',
-                    'rules' => 'required',
-                    'errors' => [
-                        'required' => '{field} Masih Kosong!!'
-                    ]
-                ],
-                'password' => [
-                    'label' => 'Password',
-                    'rules' => 'required',
-                    'errors' => [
-                        'required' => '{field} Masih Kosong!!'
-                    ]
-                ],
-            ])
-        ) {
+        if ($this->validate([
+            'username' => [
+                'label' => 'Username',
+                'rules' => 'required',
+                'errors' => [
+                    'required' => '{field} Masih Kosong!!'
+                ]
+            ],
+            'password' => [
+                'label' => 'Password',
+                'rules' => 'required',
+                'errors' => [
+                    'required' => '{field} Masih Kosong!!'
+                ]
+            ],
+        ])) {
             $username = $this->request->getPost('username');
             $password = $this->request->getPost('password');
             $cek_login = $this->ModelMasyarakat->LoginUser($username, $password);

@@ -42,7 +42,7 @@ class ControllerPengaduan extends BaseController
         if ($this->validate([
             'foto' => [
                 'label' => 'Foto',
-                'rules' => 'uploaded[foto]|max_size[foto,1024]|is_image[foto]|mime_in[foto,image/jpeg,image/jpg,image/png]',
+                'rules' => 'uploaded[foto]|max_size[foto,1024]|is_image[foto]|mime_in[foto,image/jpeg,image/jpg,image/png,image/mp3]',
                 'errors' => [
                     'uploaded' => 'Pilih {field} terlebih dahulu.',
                     'max_size' => '{field} terlalu besar. Maksimum 1 MB.',

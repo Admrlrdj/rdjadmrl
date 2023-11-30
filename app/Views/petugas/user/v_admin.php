@@ -100,6 +100,7 @@
                 <div class="form-group">
                     <label for="">Level</label>
                     <select name="level" class="form-control">
+                        <option value=""></option>
                         <option value="admin" <?= $value['level'] == 'admin' ? 'Selected' : '' ?>>Admin</option>
                         <option value="petugas" <?= $value['level'] == 'petugas' ? 'Selected' : '' ?> selected>Petugas</option>
                     </select>
